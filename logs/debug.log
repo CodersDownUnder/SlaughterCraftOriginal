@@ -1,0 +1,27 @@
+[13:12:41] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[13:12:41] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[13:12:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[13:12:42] [Server thread/INFO] [FML]: MinecraftForge v14.23.3.2674 Initialized
+[13:12:42] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[13:12:42] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[13:12:42] [Server thread/INFO] [FML]: No mod directory found, creating one: /home/tom/Desktop/modding/reinforcedblocksmod2/RBM2/mods
+[13:12:42] [Server thread/INFO] [FML]: Mod directory created successfully
+[13:12:42] [Server thread/DEBUG] [FML]: No config directory found, creating one: /home/tom/Desktop/modding/reinforcedblocksmod2/RBM2/config
+[13:12:42] [Server thread/INFO] [FML]: Config directory created successfully
+[13:12:42] [Server thread/DEBUG] [FML]: File /home/tom/Desktop/modding/reinforcedblocksmod2/RBM2/config/injectedDependencies.json not found. No dependencies injected
+[13:12:42] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:378) ~[forgeSrc-1.12.2-14.23.3.2674.jar:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:576) ~[forgeSrc-1.12.2-14.23.3.2674.jar:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) ~[forgeSrc-1.12.2-14.23.3.2674.jar:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) ~[forgeSrc-1.12.2-14.23.3.2674.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:128) ~[forgeSrc-1.12.2-14.23.3.2674.jar:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:550) [forgeSrc-1.12.2-14.23.3.2674.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[13:12:42] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /home/tom/Desktop/modding/reinforcedblocksmod2/RBM2/./crash-reports/crash-2018-08-19_13.12.42-server.txt
+[13:12:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:12:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:12:42] [Server thread/WARN] [FML]: Can't revert to frozen GameData state without freezing first.
+[13:12:42] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[13:12:42] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:12:42] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

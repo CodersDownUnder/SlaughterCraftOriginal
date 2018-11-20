@@ -1,0 +1,16 @@
+[
+{
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Trhod177"],
+  "credits": "",
+  "logoFile": "background",
+  "screenshots": [],
+  "dependencies": []
+}
+]

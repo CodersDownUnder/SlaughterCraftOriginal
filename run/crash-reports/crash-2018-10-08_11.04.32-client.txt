@@ -1,0 +1,125 @@
+---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 10/8/18 11:04 AM
+Description: Unexpected error
+
+java.lang.IllegalArgumentException: Cannot set property PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]} as it does not exist in BlockStateContainer{block=bm:butcherstable, properties=[]}
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.withProperty(BlockStateContainer.java:221)
+	at trhod177.bm.blocks.machines.animalskinner.ButcheryTable.getStateForPlacement(ButcheryTable.java:78)
+	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:55)
+	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:201)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClickBlock(PlayerControllerMP.java:499)
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1692)
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2379)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2145)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1933)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1186)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:441)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.withProperty(BlockStateContainer.java:221)
+	at trhod177.bm.blocks.machines.animalskinner.ButcheryTable.getStateForPlacement(ButcheryTable.java:78)
+	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:55)
+	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:201)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClickBlock(PlayerControllerMP.java:499)
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1692)
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2379)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2145)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player328'/98, l='MpServer', x=1592.35, y=4.00, z=1554.99]]
+	Chunk stats: MultiplayerChunkCache: 289, 289
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (1588,4,1561), Chunk: (at 4,0,9 in 99,97; contains blocks 1584,0,1552 to 1599,255,1567), Region: (3,3; contains chunks 96,96 to 127,127, blocks 1536,0,1536 to 2047,255,2047)
+	Level time: 26998 game time, 26998 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 55 total; [EntitySheep['Sheep'/9, l='MpServer', x=1518.76, y=4.00, z=1503.20], EntityCow['Cow'/10, l='MpServer', x=1513.84, y=4.00, z=1493.72], EntityVillager['Villager'/11, l='MpServer', x=1513.45, y=4.94, z=1547.05], EntityVillager['Villager'/12, l='MpServer', x=1515.69, y=4.94, z=1547.50], EntityVillager['Villager'/13, l='MpServer', x=1515.18, y=4.94, z=1570.54], EntityVillager['Villager'/14, l='MpServer', x=1515.37, y=4.94, z=1568.83], EntityPlayerSP['Player328'/98, l='MpServer', x=1592.35, y=4.00, z=1554.99], EntityVillager['Villager'/15, l='MpServer', x=1515.53, y=5.00, z=1568.63], EntityVillager['Villager'/18, l='MpServer', x=1522.36, y=5.00, z=1543.68], EntityVillager['Villager'/19, l='MpServer', x=1525.30, y=5.00, z=1566.61], EntityVillager['Villager'/20, l='MpServer', x=1525.30, y=5.00, z=1567.70], EntityVillager['Villager'/21, l='MpServer', x=1528.53, y=5.00, z=1566.57], EntityVillager['Villager'/22, l='MpServer', x=1524.51, y=5.00, z=1561.73], EntityVillager['Villager'/23, l='MpServer', x=1526.41, y=5.00, z=1565.06], EntityVillager['Villager'/24, l='MpServer', x=1526.75, y=5.00, z=1566.52], EntityVillager['Villager'/25, l='MpServer', x=1519.27, y=5.00, z=1568.51], EntityVillager['Villager'/26, l='MpServer', x=1530.41, y=4.00, z=1569.50], EntitySheep['Sheep'/31, l='MpServer', x=1538.24, y=4.00, z=1498.33], EntityVillager['Villager'/32, l='MpServer', x=1551.92, y=5.50, z=1535.23], EntityVillager['Villager'/33, l='MpServer', x=1546.55, y=5.00, z=1551.35], EntityVillager['Villager'/34, l='MpServer', x=1544.92, y=5.00, z=1540.51], EntityVillager['Villager'/35, l='MpServer', x=1555.44, y=3.94, z=1536.30], EntityVillager['Villager'/36, l='MpServer', x=1545.50, y=5.00, z=1538.58], EntityVillager['Villager'/37, l='MpServer', x=1546.31, y=5.00, z=1540.50], EntityVillager['Villager'/38, l='MpServer', x=1542.04, y=5.00, z=1559.29], EntityVillager['Villager'/39, l='MpServer', x=1543.02, y=5.00, z=1559.57], EntityVillager['Villager'/40, l='MpServer', x=1549.50, y=4.94, z=1571.08], EntityVillager['Villager'/41, l='MpServer', x=1549.50, y=4.94, z=1572.08], EntityVillager['Villager'/42, l='MpServer', x=1542.50, y=4.00, z=1588.35], EntityCow['Cow'/43, l='MpServer', x=1554.15, y=4.00, z=1629.31], EntityVillager['Villager'/46, l='MpServer', x=1559.50, y=5.00, z=1526.70], EntityVillager['Villager'/47, l='MpServer', x=1552.50, y=5.00, z=1527.30], EntityVillager['Villager'/48, l='MpServer', x=1550.48, y=4.00, z=1529.61], EntityVillager['Villager'/49, l='MpServer', x=1554.60, y=5.00, z=1535.50], EntityVillager['Villager'/50, l='MpServer', x=1555.59, y=3.94, z=1537.37], EntityVillager['Villager'/51, l='MpServer', x=1556.30, y=3.94, z=1578.64], EntityVillager['Villager'/52, l='MpServer', x=1573.65, y=4.00, z=1565.49], EntityCow['Cow'/53, l='MpServer', x=1579.57, y=4.00, z=1621.21], EntityChicken['Chicken'/54, l='MpServer', x=1610.66, y=4.00, z=1599.10], EntityItem['item.item.egg'/55, l='MpServer', x=1614.07, y=4.00, z=1591.46], EntitySheep['Sheep'/57, l='MpServer', x=1625.80, y=4.00, z=1566.62], EntityChicken['Chicken'/58, l='MpServer', x=1620.88, y=4.00, z=1628.72], EntitySheep['Sheep'/62, l='MpServer', x=1643.36, y=4.00, z=1476.20], EntitySheep['Sheep'/63, l='MpServer', x=1641.57, y=4.00, z=1571.22], EntityPig['Pig'/64, l='MpServer', x=1636.58, y=4.00, z=1570.64], EntityChicken['Chicken'/65, l='MpServer', x=1639.85, y=4.00, z=1593.08], EntityCow['Cow'/66, l='MpServer', x=1647.79, y=4.00, z=1605.60], EntityPig['Pig'/70, l='MpServer', x=1662.71, y=4.00, z=1482.47], EntityPig['Pig'/71, l='MpServer', x=1656.36, y=4.00, z=1496.76], EntitySheep['Sheep'/72, l='MpServer', x=1649.28, y=4.00, z=1574.47], EntitySheep['Sheep'/73, l='MpServer', x=1653.45, y=4.00, z=1574.24], EntityCow['Cow'/74, l='MpServer', x=1658.83, y=4.00, z=1611.15], EntitySheep['Sheep'/75, l='MpServer', x=1652.16, y=4.00, z=1620.18], EntityPig['Pig'/83, l='MpServer', x=1670.24, y=4.00, z=1554.58], EntitySheep['Sheep'/86, l='MpServer', x=1660.71, y=4.00, z=1614.42]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2886)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:470)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.15.0-36-generic
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 619183728 bytes (590 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.4.2705 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID             | Version           | Source                                        | Signature                                |
+	|:--------- |:-------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| UCHIJAAAA | minecraft      | 1.12.2            | minecraft.jar                                 | None                                     |
+	| UCHIJAAAA | mcp            | 9.42              | minecraft.jar                                 | None                                     |
+	| UCHIJAAAA | FML            | 8.0.99.99         | forgeSrc-1.12.2-14.23.4.2705.jar              | None                                     |
+	| UCHIJAAAA | forge          | 14.23.4.2705      | forgeSrc-1.12.2-14.23.4.2705.jar              | None                                     |
+	| UCHIJAAAA | bm             | ButcheryMod1.12.2 | bin                                           | None                                     |
+	| UCHIJAAAA | codechickenlib | 3.1.7.340         | CodeChickenLib-1.12.2-3.1.7.340-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| UCHIJAAAA | jei            | 4.11.0.212        | jei_1.12.2-4.11.0.212.jar                     | None                                     |
+	| UCHIJAAAA | nei            | 2.4.1             | NotEnoughItems-1.12.2-2.4.1.238-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 390.48' Renderer: 'GeForce GT 730/PCIe/SSE2'
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: GeForce GT 730/PCIe/SSE2 GL version 4.6.0 NVIDIA 390.48, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 6x AMD FX(tm)-6300 Six-Core Processor

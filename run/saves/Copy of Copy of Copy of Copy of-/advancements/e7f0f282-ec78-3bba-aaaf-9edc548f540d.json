@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-10-11 23:36:36 +1000",
+      "deep_ocean": "2018-10-11 23:36:57 +1000",
+      "extreme_hills_with_trees": "2018-10-11 23:37:37 +1000",
+      "forest_hills": "2018-10-11 23:38:36 +1000",
+      "plains": "2018-10-11 23:37:02 +1000",
+      "ocean": "2018-10-11 23:37:32 +1000",
+      "extreme_hills": "2018-10-11 23:37:22 +1000",
+      "river": "2018-10-11 23:37:46 +1000"
+    },
+    "done": false
+  }
+}

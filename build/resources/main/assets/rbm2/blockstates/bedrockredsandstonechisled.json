@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "side": "rbm2:blocks/bedrockredsandstone_chiseled",
+            "up": "rbm2:blocks/bedrockredsandstone_top",
+            "down": "rbm2:blocks/bedrockredsandstone_bottom"
+        },
+        "model": "cube_column"
+        
+    },
+    "variants": {
+            "normal": [{
+        }],
+        "inventory": [{
+        }]
+    }
+}
