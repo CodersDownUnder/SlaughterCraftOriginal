@@ -1,0 +1,47 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 11/27/18 9:25 PM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at trhod177.bm.events.EventPlayerJoin.onWorldEvent(EventPlayerJoin.java:22)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_22_EventPlayerJoin_onWorldEvent_WorldEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:133)
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:160)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:552)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.15.0-39-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 719188008 bytes (685 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2775 6 mods loaded, 6 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State   | ID          | Version       | Source                           | Signature |
+	|:------- |:----------- |:------------- |:-------------------------------- |:--------- |
+	| UCHIJAA | minecraft   | 1.12.2        | minecraft.jar                    | None      |
+	| UCHIJAA | mcp         | 9.42          | minecraft.jar                    | None      |
+	| UCHIJAA | FML         | 8.0.99.99     | forgeSrc-1.12.2-14.23.5.2775.jar | None      |
+	| UCHIJAA | forge       | 14.23.5.2775  | forgeSrc-1.12.2-14.23.5.2775.jar | None      |
+	| UCHIJAA | butcherymod | BetaV0.1.9.3A | bin                              | None      |
+	| UCHIJAA | guideapi    | 1.12-2.1.7-62 | Guide-API-1.12-2.1.7-62.jar      | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
