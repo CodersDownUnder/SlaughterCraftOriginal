@@ -1,68 +1,89 @@
 Symbol range map extraction starting
-Processing 46 files
-startProcessing "trhod177/bm/ButcheryMod.java" md5: 59809fdf6e728fff45116d2ed9d51e4a
-endProcessing "trhod177/bm/ButcheryMod.java"
-
-startProcessing "trhod177/bm/References.java" md5: 62f6a14e5ebfe4ef1060c32567f1353e
-Cache Hit!
+Processing 61 files
+startProcessing "trhod177/bm/References.java" md5: 3fae82174a2252287da1adcb85894e4e
 endProcessing "trhod177/bm/References.java"
 
-startProcessing "trhod177/bm/blocks/ButcheryTable.java" md5: 262933ec41e9d9c042a2e9272fc214e1
-Cache Hit!
+startProcessing "trhod177/bm/SlaughterCraft.java" md5: 652ef057840d59ab9f4e8de2b8343852
+endProcessing "trhod177/bm/SlaughterCraft.java"
+
+startProcessing "trhod177/bm/blocks/ButcheryTable.java" md5: 03a87a56675f617f7fa07acb85ce883b
 endProcessing "trhod177/bm/blocks/ButcheryTable.java"
 
-startProcessing "trhod177/bm/blocks/CoalIronOre.java" md5: 6621df20fa51d6ec31e9ecd33955ce2c
-Cache Hit!
+startProcessing "trhod177/bm/blocks/CoalIronOre.java" md5: 82d98388663782eb93f8c0d771852759
 endProcessing "trhod177/bm/blocks/CoalIronOre.java"
 
-startProcessing "trhod177/bm/blocks/CustomBlock.java" md5: 50a2d5c100d604bcfeb3b8bf22e18adc
-Cache Hit!
+startProcessing "trhod177/bm/blocks/CustomBlock.java" md5: 8e5c174efba7f5d1bb33d824c4d0e64a
 endProcessing "trhod177/bm/blocks/CustomBlock.java"
 
-startProcessing "trhod177/bm/blocks/MeatBlock.java" md5: e8a5a64e12f95d3122d2bd7479755c3a
-Cache Hit!
+startProcessing "trhod177/bm/blocks/EndermanSkull.java" md5: 1b37c4ecaa93299bb8b7ff8990ea1bbe
+endProcessing "trhod177/bm/blocks/EndermanSkull.java"
+
+startProcessing "trhod177/bm/blocks/MeatBlock.java" md5: 4119d376cf91aae06f5f576d1d3c797e
 endProcessing "trhod177/bm/blocks/MeatBlock.java"
 
-startProcessing "trhod177/bm/blocks/TempBlock.java" md5: 824834a0eaacc1050cbb07c7ebba2559
-Cache Hit!
+startProcessing "trhod177/bm/blocks/SlimeSkull.java" md5: 1e1b37c6f227d9f891f81ae2cf8e3f25
+endProcessing "trhod177/bm/blocks/SlimeSkull.java"
+
+startProcessing "trhod177/bm/blocks/TempBlock.java" md5: caa607915fa60301a7de07e8b29f8082
 endProcessing "trhod177/bm/blocks/TempBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/ChickenCarcassBlock.java" md5: 37dbb70dcab6711e375ad48cc4e51360
+startProcessing "trhod177/bm/blocks/carcasses/ChickenCarcassBlock.java" md5: b03ca9dc1abd09a90deb65534d69aabf
 endProcessing "trhod177/bm/blocks/carcasses/ChickenCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/CowCarcassBlock.java" md5: 42eafc838a41b1e815f30ba22eb84d59
+startProcessing "trhod177/bm/blocks/carcasses/CowCarcassBlock.java" md5: 6881fd91cb67995f77fa7342d19a2d9a
 endProcessing "trhod177/bm/blocks/carcasses/CowCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/DonkeyCarcassBlock.java" md5: 99efe29787637ca6c0f05bd019803ff6
+startProcessing "trhod177/bm/blocks/carcasses/DonkeyCarcassBlock.java" md5: 27eb96f165edaba257d6b4a6de7b7007
 endProcessing "trhod177/bm/blocks/carcasses/DonkeyCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/HorseCarcassBlock.java" md5: 65eb246730d5058ef430137a8c99d971
+startProcessing "trhod177/bm/blocks/carcasses/EnderCarcassBlock.java" md5: e3c0e32dfa5669d7ecad06d21c1780f2
+endProcessing "trhod177/bm/blocks/carcasses/EnderCarcassBlock.java"
+
+startProcessing "trhod177/bm/blocks/carcasses/HorseCarcassBlock.java" md5: f387513da493e18517302da2c3423979
 endProcessing "trhod177/bm/blocks/carcasses/HorseCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/LlamaCarcassBlock.java" md5: 75df59377cfa1459e2df75d6ff08b179
+startProcessing "trhod177/bm/blocks/carcasses/LlamaCarcassBlock.java" md5: 3b3d011b6b3a97d43a6d14e5b52929b5
 endProcessing "trhod177/bm/blocks/carcasses/LlamaCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/MuleCarcassBlock.java" md5: a67368a0483dbe53dc19f25daafeb386
+startProcessing "trhod177/bm/blocks/carcasses/MuleCarcassBlock.java" md5: 1d16d148cfbd808e4dc4fee5ce8525bb
 endProcessing "trhod177/bm/blocks/carcasses/MuleCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/PigCarcassBlock.java" md5: 6a7f440990fc9d0bae0fb9eacb962cc8
+startProcessing "trhod177/bm/blocks/carcasses/PigCarcassBlock.java" md5: abb704f1fed57cd319e24ac82fd70978
 endProcessing "trhod177/bm/blocks/carcasses/PigCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/RabbitCarcassBlock.java" md5: f8a05e52646f6eeb4823ef7a72d9d26d
+startProcessing "trhod177/bm/blocks/carcasses/RabbitCarcassBlock.java" md5: 056560f3d37fc2b672825b42f2efe6fb
 endProcessing "trhod177/bm/blocks/carcasses/RabbitCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/SheepCarcassBlock.java" md5: 55a8a7495666a46b166c1d19612c5b2a
+startProcessing "trhod177/bm/blocks/carcasses/SheepCarcassBlock.java" md5: a26986161e3570f3dcb4f96e508cc1fa
 endProcessing "trhod177/bm/blocks/carcasses/SheepCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/carcasses/SquidCarcassBlock.java" md5: cf5a101605e7f25b6576b5fc08ec903b
+startProcessing "trhod177/bm/blocks/carcasses/SlimeCarcassBlock.java" md5: ce63b0ff131d6a7bbd83b8b9afa18a14
+endProcessing "trhod177/bm/blocks/carcasses/SlimeCarcassBlock.java"
+
+startProcessing "trhod177/bm/blocks/carcasses/SquidCarcassBlock.java" md5: 1459321d4c491597f7d167c9bb5ffdcf
 endProcessing "trhod177/bm/blocks/carcasses/SquidCarcassBlock.java"
 
-startProcessing "trhod177/bm/blocks/machines/slowroaster/SlowRoaster.java" md5: 6c4c474335e7ef2a67af9f9edebd7839
-Cache Hit!
+startProcessing "trhod177/bm/blocks/carcasses/VillagerCarcassBlock.java" md5: 67ba414043c325221e50e69f6eecae60
+endProcessing "trhod177/bm/blocks/carcasses/VillagerCarcassBlock.java"
+
+startProcessing "trhod177/bm/blocks/carcasses/ZombieCarcassBlock.java" md5: b062524a7f2bd85c676a5453f0d98161
+endProcessing "trhod177/bm/blocks/carcasses/ZombieCarcassBlock.java"
+
+startProcessing "trhod177/bm/blocks/carcasses/ZombiePigmanCarcassBlock.java" md5: af8b132d9b0bdfffe56f8c71ace88f2d
+endProcessing "trhod177/bm/blocks/carcasses/ZombiePigmanCarcassBlock.java"
+
+startProcessing "trhod177/bm/blocks/carcasses/ZombieVillagerCarcassBlock.java" md5: a74454d904beb31de3bd338d098c5f22
+endProcessing "trhod177/bm/blocks/carcasses/ZombieVillagerCarcassBlock.java"
+
+startProcessing "trhod177/bm/blocks/machines/slowroaster/SlowRoaster.java" md5: b000d4d171bcb26adb39d237b1f0b1c3
 endProcessing "trhod177/bm/blocks/machines/slowroaster/SlowRoaster.java"
 
-startProcessing "trhod177/bm/blocks/machines/tanningrack/TanningRack.java" md5: 29d92b23dec7f657aa3078ec2235e82b
+startProcessing "trhod177/bm/blocks/machines/tanningrack/TanningRack.java" md5: a94d43a3d6cb2a9a742234dc25e48ad3
 endProcessing "trhod177/bm/blocks/machines/tanningrack/TanningRack.java"
+
+startProcessing "trhod177/bm/books/ButcheryModGuideApi.java" md5: 3264db2d04a1e5a685cb807537787e36
+Cache Hit!
+endProcessing "trhod177/bm/books/ButcheryModGuideApi.java"
 
 startProcessing "trhod177/bm/creativetabs/ButcheryModCreativeTab.java" md5: 7ac9df3220a8a13842bd6b03f61b5976
 Cache Hit!
@@ -80,75 +101,81 @@ startProcessing "trhod177/bm/handlers/BmOreDictionaryHandler.java" md5: adef0710
 Cache Hit!
 endProcessing "trhod177/bm/handlers/BmOreDictionaryHandler.java"
 
-startProcessing "trhod177/bm/handlers/ConfigHandler.java" md5: 4829ff3ed35396fa12c7f63d1550fa8c
-Cache Hit!
+startProcessing "trhod177/bm/handlers/ConfigHandler.java" md5: 5dd85463f32a978e33459fa334234e2c
 endProcessing "trhod177/bm/handlers/ConfigHandler.java"
 
 startProcessing "trhod177/bm/handlers/CraftingHandler.java" md5: 7140531a80e31db03584fba4d8f230fc
 Cache Hit!
 endProcessing "trhod177/bm/handlers/CraftingHandler.java"
 
-startProcessing "trhod177/bm/handlers/RecipeHandler.java" md5: 911015b12820dc660ad4fb2048ad8fd4
+startProcessing "trhod177/bm/handlers/RecipeHandler.java" md5: 1583e55035d1523bb393c36d55c76de7
 endProcessing "trhod177/bm/handlers/RecipeHandler.java"
 
-startProcessing "trhod177/bm/init/BlockInit.java" md5: 64ad6f233a7f6eb72147e24bb313adf8
+startProcessing "trhod177/bm/init/ArmourInit.java" md5: 19958f2918f30d43d6b796a9498e6c82
+endProcessing "trhod177/bm/init/ArmourInit.java"
+
+startProcessing "trhod177/bm/init/BlockInit.java" md5: 39401582c95536cf06e4577bedee4e0a
 endProcessing "trhod177/bm/init/BlockInit.java"
 
-startProcessing "trhod177/bm/init/ItemInit.java" md5: 4f5bd6ca4746172a62b5d08a7d00db7c
+startProcessing "trhod177/bm/init/ItemInit.java" md5: 88c47fde67661405f1724868b7e1278b
 endProcessing "trhod177/bm/init/ItemInit.java"
 
-startProcessing "trhod177/bm/init/MobDrops.java" md5: 09150f4d33e6417f45145754d16f61f4
+startProcessing "trhod177/bm/init/MobDrops.java" md5: a97983aeb32b6da92db63c7bd22ceeba
 endProcessing "trhod177/bm/init/MobDrops.java"
 
 startProcessing "trhod177/bm/interfaces/IStructure.java" md5: b6a0adeea1a47e437b9351bcf27b9396
 Cache Hit!
 endProcessing "trhod177/bm/interfaces/IStructure.java"
 
-startProcessing "trhod177/bm/items/AnimalParts.java" md5: 21927a71425becb8f55f926c82c50d2c
-Cache Hit!
+startProcessing "trhod177/bm/items/AnimalParts.java" md5: 900a4c4eecf2790f7d2dc9f2c010b122
 endProcessing "trhod177/bm/items/AnimalParts.java"
 
-startProcessing "trhod177/bm/items/BmItemFood.java" md5: 7116e9d15df6cc721c51c5b01d3b570e
-Cache Hit!
+startProcessing "trhod177/bm/items/ArmourBase.java" md5: d3f9b5978a8eb2d32b347d847b2fef73
+endProcessing "trhod177/bm/items/ArmourBase.java"
+
+startProcessing "trhod177/bm/items/BmItemFood.java" md5: 3fff11ba6756506bf1da564c9f16c830
 endProcessing "trhod177/bm/items/BmItemFood.java"
 
-startProcessing "trhod177/bm/items/ItemAnimalSkin.java" md5: 80b9c39eae2e60ebfd923fd3a185c635
+startProcessing "trhod177/bm/items/ItemAnimalSkin.java" md5: 2361bb435f3eec66d99cae6fddfc1821
 endProcessing "trhod177/bm/items/ItemAnimalSkin.java"
 
-startProcessing "trhod177/bm/items/ItemButcherKnife.java" md5: 3ce73f5eee62e3ce51ca2f9cc5c0c623
-Cache Hit!
+startProcessing "trhod177/bm/items/ItemButcherKnife.java" md5: 8d933acd72fc39cc02fa1dc2562cea0b
 endProcessing "trhod177/bm/items/ItemButcherKnife.java"
 
-startProcessing "trhod177/bm/items/ItemCleaver.java" md5: b6ad7657b7de4d66b61eb56eeee1b34a
-Cache Hit!
+startProcessing "trhod177/bm/items/ItemCleaver.java" md5: 5f18c4489d295e5c949694ce32277991
 endProcessing "trhod177/bm/items/ItemCleaver.java"
 
-startProcessing "trhod177/bm/items/ItemDeboningKnife.java" md5: 7ee63e1f0e4e70fa9f686f746a708095
-Cache Hit!
+startProcessing "trhod177/bm/items/ItemDeboningKnife.java" md5: 380a781a0e697cb56c06618df85d4037
 endProcessing "trhod177/bm/items/ItemDeboningKnife.java"
 
-startProcessing "trhod177/bm/items/ItemKnife.java" md5: e5bb17b7981aeaaa5b5047c8ea4add30
-Cache Hit!
+startProcessing "trhod177/bm/items/ItemKnife.java" md5: 98ead5399bf6f921f9dc4312242c32c4
 endProcessing "trhod177/bm/items/ItemKnife.java"
 
-startProcessing "trhod177/bm/items/ItemSkinningKnife.java" md5: 435099c3e5bf5f4c8985633e83145c44
-Cache Hit!
+startProcessing "trhod177/bm/items/ItemSkinningKnife.java" md5: 11d4e05192d74d5cd395f281a08d0d7f
 endProcessing "trhod177/bm/items/ItemSkinningKnife.java"
 
-startProcessing "trhod177/bm/items/ItemSteel.java" md5: 36051179370d56953219f69baa57b617
-Cache Hit!
+startProcessing "trhod177/bm/items/ItemSteel.java" md5: 695c224a341f05f6068496ac28c3e4b3
 endProcessing "trhod177/bm/items/ItemSteel.java"
 
-startProcessing "trhod177/bm/items/ItemSteelIngot.java" md5: ecaf98f0bec40534a3fe2808f6ae6980
-Cache Hit!
+startProcessing "trhod177/bm/items/ItemSteelIngot.java" md5: 6ae8f2a08412660f7ea42479f10075ba
 endProcessing "trhod177/bm/items/ItemSteelIngot.java"
 
-startProcessing "trhod177/bm/items/ModItem.java" md5: 043dac91e52581c740603167808adadf
-Cache Hit!
+startProcessing "trhod177/bm/items/ModItem.java" md5: 9f36cbe76cd972876815989d6bdc9561
 endProcessing "trhod177/bm/items/ModItem.java"
 
-startProcessing "trhod177/bm/proxy/ClientProxy.java" md5: 45d101280c560e2c62c50aef84b0fe91
-Cache Hit!
+startProcessing "trhod177/bm/items/armour/BootsSlime.java" md5: c2b152c763b7ac91eecde672518fecb5
+endProcessing "trhod177/bm/items/armour/BootsSlime.java"
+
+startProcessing "trhod177/bm/items/armour/ChestplateSlime.java" md5: 60e7d9df269cd88c9fbd3f9511860c16
+endProcessing "trhod177/bm/items/armour/ChestplateSlime.java"
+
+startProcessing "trhod177/bm/items/armour/HelmetSlime.java" md5: b1878bf1c1a46f71e4589e762cf34f01
+endProcessing "trhod177/bm/items/armour/HelmetSlime.java"
+
+startProcessing "trhod177/bm/items/armour/LeggingsSlime.java" md5: 1c40ed4518ba3f15ce1285da01f464db
+endProcessing "trhod177/bm/items/armour/LeggingsSlime.java"
+
+startProcessing "trhod177/bm/proxy/ClientProxy.java" md5: 4b40ce656f52b6f9461567bf0f6432f4
 endProcessing "trhod177/bm/proxy/ClientProxy.java"
 
 startProcessing "trhod177/bm/proxy/CommonProxy.java" md5: c91d500166eba6c55de26b9d8dfb3ac7

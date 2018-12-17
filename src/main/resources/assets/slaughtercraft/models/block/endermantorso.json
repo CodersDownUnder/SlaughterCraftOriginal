@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "blocks/endermancarcass/enderman",
+		"particle": "blocks/endermancarcass/enderman"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 6],
+			"to": [14, 25, 12],
+			"faces": {
+				"north": {"uv": [8, 9, 10, 12], "texture": "#0"},
+				"east": {"uv": [9.75, 9, 11.75, 12], "texture": "#0"},
+				"south": {"uv": [9.25, 9, 11.25, 12], "texture": "#0"},
+				"west": {"uv": [9, 9, 11, 12], "texture": "#0"},
+				"up": {"uv": [2, 4, 4, 6], "texture": "#0"},
+				"down": {"uv": [8, 9, 10, 12], "texture": "#0"}
+			}
+		}
+	]
+}

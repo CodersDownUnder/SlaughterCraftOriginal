@@ -14,7 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.init.ItemInit;
 
 public class ItemSteelIngot extends Item {
@@ -33,13 +33,13 @@ public class ItemSteelIngot extends Item {
 	    
 	
 	public void registerItemModel() {
-		ButcheryMod.proxy.registerItemRenderer(this, 0, name);
+		SlaughterCraft.proxy.registerItemRenderer(this, 0, name);
 	}
 	
 	
 	@Override
 	public ItemSteelIngot setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT3);
+		super.setCreativeTab(SlaughterCraft.BMCT3);
 		return this;
      }
 }

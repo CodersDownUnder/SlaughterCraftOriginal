@@ -27,7 +27,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 
 
 
@@ -49,7 +49,7 @@ public class CoalIronOre extends CustomBlock {
 
 	@Override
 	public CoalIronOre setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT);
+		super.setCreativeTab(SlaughterCraft.BMCT);
 		return this;
 	}
 	

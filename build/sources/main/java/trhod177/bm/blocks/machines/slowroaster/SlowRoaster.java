@@ -30,7 +30,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.References;
 import trhod177.bm.blocks.ButcheryTable;
 import trhod177.bm.blocks.CustomBlock;
@@ -89,7 +89,7 @@ public class SlowRoaster extends CustomBlock {
 	
 	@Override
 	public SlowRoaster setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT);
+		super.setCreativeTab(SlaughterCraft.BMCT);
 		return this;
 	}
 	

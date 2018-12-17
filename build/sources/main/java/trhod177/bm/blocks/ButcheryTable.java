@@ -42,7 +42,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.References;
 import trhod177.bm.init.BlockInit;
 
@@ -65,7 +65,7 @@ public class ButcheryTable extends CustomBlock {
    
 	  public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
 	  {
-	 	 return new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 1.0D, 1.0D);
+	 	 return new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 1.0D, 1.0D); 
 	  }
 	  
 	  
@@ -75,15 +75,20 @@ public class ButcheryTable extends CustomBlock {
 	  @Override
 		public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 			
+		  boolean once = true;
 			    
-				
+				if (once == true) {
 			    Minecraft mc = Minecraft.getMinecraft();
 
 	            mc.player.sendMessage(new TextComponentTranslation("ButcheryMod's Butchers Table Doesn't Work Yet"));
-			
+			    
+				once = false;
+				} else {
+					Minecraft mc = Minecraft.getMinecraft();
+					mc.player.sendMessage(new TextComponentTranslation("ButcheryMod's Butchers Table Doesn't Work Yet"));
+				}
+				
 				return true;
-				
-				
 			
 		}	
 	  
@@ -109,7 +114,7 @@ public class ButcheryTable extends CustomBlock {
 	
 	@Override
 	public ButcheryTable setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT);
+		super.setCreativeTab(SlaughterCraft.BMCT);
 		return this;
 	}
 	

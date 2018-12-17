@@ -5,11 +5,11 @@ fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:7
-guiScale:3
-particles:0
-bobView:false
+guiScale:0
+particles:1
+bobView:true
 anaglyph3d:false
-maxFps:60
+maxFps:90
 fboEnable:true
 difficulty:0
 fancyGraphics:false
@@ -43,7 +43,7 @@ mipmapLevels:0
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
-entityShadows:true
+entityShadows:false
 mainHand:right
 attackIndicator:1
 showSubtitles:false
@@ -85,7 +85,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-soundCategory_master:0.47682118
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

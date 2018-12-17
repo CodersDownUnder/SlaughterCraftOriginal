@@ -6,7 +6,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.math.AxisAlignedBB;
-import trhod177.bm.ButcheryMod;;
+import trhod177.bm.SlaughterCraft;;
 
 
 public class CustomBlock extends Block {
@@ -26,7 +26,7 @@ public class CustomBlock extends Block {
 	
 	
 	public void registerItemModel(Item itemBlock) {
-		ButcheryMod.proxy.registerItemRenderer(itemBlock, 0, name);
+		SlaughterCraft.proxy.registerItemRenderer(itemBlock, 0, name);
 	}
 	
 	public Item createItemBlock() {

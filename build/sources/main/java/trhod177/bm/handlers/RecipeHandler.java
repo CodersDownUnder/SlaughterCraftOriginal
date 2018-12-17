@@ -1,5 +1,7 @@
 package trhod177.bm.handlers;
 
+import java.util.Random;
+
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -13,6 +15,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.oredict.OreDictionary;
+import trhod177.bm.init.ArmourInit;
 import trhod177.bm.init.BlockInit;
 import trhod177.bm.init.ItemInit;
 
@@ -21,27 +24,30 @@ public class RecipeHandler {
 	
 	
 	
+	
 	public static void registerShapedRecipes() {
 		
      CraftingHandler.addShapedOreRecipe(new ItemStack(BlockInit.uncookedroastbeef), new Object[] {"BBB","RIR","SSS", 'S', ItemInit.cowshoulder, 'R', ItemInit.cowrump, 'B', ItemInit.cowbelly, 'I', Items.STICK});
      CraftingHandler.addShapedOreRecipe(new ItemStack(BlockInit.uncookedroastchicken), new Object[] {"BBB","BIB","BBB", 'B', ItemInit.chickenbreast, 'I', Items.STICK});
      CraftingHandler.addShapedOreRecipe(new ItemStack(BlockInit.uncookedroastmutton), new Object[] {"BBB","RIR","SSS", 'S', ItemInit.muttonshoulder, 'R', ItemInit.muttonrump, 'B', ItemInit.muttonbelly, 'I', Items.STICK});
-     CraftingHandler.addShapedOreRecipe(new ItemStack(BlockInit.uncookedroastpork), new Object[] {"BBB","RIR","SSS", 'S', ItemInit.pigshoulder, 'R', ItemInit.pigrump, 'B', ItemInit.pigbelly, 'I', Items.STICK});
-     
-     
+     CraftingHandler.addShapedOreRecipe(new ItemStack(BlockInit.uncookedroastpork), new Object[] {"BBB","RIR","SSS", 'S', ItemInit.pigshoulder, 'R', ItemInit.pigrump, 'B', ItemInit.pigbelly, 'I', Items.STICK});     
      CraftingHandler.addShapedRecipe(new ItemStack(ItemInit.butcherknife), new Object[] {"SXX","XSX","XXT", 'S', ItemInit.steel, 'T', Items.STICK, 'X', Ingredient.EMPTY});
-
+     CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimeboots), new Object[] {"XXX","SXS","SXS", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
+     CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimehelmet), new Object[] {"SSS","SXS","XXX", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
+     CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimechestplate), new Object[] {"SXS","SSS","SSS", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
+     CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimeleggings), new Object[] {"SSS","SXS","SXS", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
      
      
 	}
 
 	public static void registerShapelessRecipes() {
 		
+		
 		CraftingHandler.addShapelessRecipe(new ItemStack(ItemInit.roastbeefslice, 12), new Object[] {ItemInit.butcherknife, BlockInit.roastbeef});
 		CraftingHandler.addShapelessRecipe(new ItemStack(ItemInit.roastchickenslice, 12), new Object[] {ItemInit.butcherknife, BlockInit.roastchicken});
 		CraftingHandler.addShapelessRecipe(new ItemStack(ItemInit.roastporkslice, 12), new Object[] {ItemInit.butcherknife, BlockInit.roastpork});
 		CraftingHandler.addShapelessRecipe(new ItemStack(ItemInit.roastmuttonslice, 12), new Object[] {ItemInit.butcherknife, BlockInit.roastmutton});
-		
+		CraftingHandler.addShapelessRecipe(new ItemStack(ItemInit.slimeskinleather, 4), new Object[] {ItemInit.butcherknife, BlockInit.slimeskull});
 		
 	}
 
@@ -76,7 +82,9 @@ public class RecipeHandler {
 		CraftingHandler.addSmelting(ItemInit.mulemeat, new ItemStack(ItemInit.cookedmulemeat));
 		CraftingHandler.addSmelting(ItemInit.llamameat, new ItemStack(ItemInit.cookedllamameat));
 		
-		CraftingHandler.addSmelting(BlockInit.coalironmix, new ItemStack(ItemInit.steelingot));
+		
+		GameRegistry.addSmelting(BlockInit.coalironmix, new ItemStack(ItemInit.steel), 3.0F);
+		
 		
 		
 	}

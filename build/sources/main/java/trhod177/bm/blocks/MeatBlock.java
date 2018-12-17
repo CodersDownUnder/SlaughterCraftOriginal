@@ -27,7 +27,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 
 
 
@@ -75,7 +75,7 @@ public class MeatBlock extends CustomBlock {
 
 	@Override
 	public MeatBlock setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT2);
+		super.setCreativeTab(SlaughterCraft.BMCT2);
 		return this;
 	}
 	

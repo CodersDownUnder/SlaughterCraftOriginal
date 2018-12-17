@@ -8,13 +8,17 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.blocks.ButcheryTable;
 import trhod177.bm.blocks.CoalIronOre;
+import trhod177.bm.blocks.EndermanSkull;
 import trhod177.bm.blocks.MeatBlock;
+import trhod177.bm.blocks.SlimeSkull;
 import trhod177.bm.blocks.carcasses.ChickenCarcassBlock;
 import trhod177.bm.blocks.carcasses.CowCarcassBlock;
+import trhod177.bm.blocks.carcasses.CreeperCarcassBlock;
 import trhod177.bm.blocks.carcasses.DonkeyCarcassBlock;
+import trhod177.bm.blocks.carcasses.EnderCarcassBlock;
 import trhod177.bm.blocks.carcasses.HorseCarcassBlock;
 import trhod177.bm.blocks.carcasses.LlamaCarcassBlock;
 
@@ -22,7 +26,13 @@ import trhod177.bm.blocks.carcasses.MuleCarcassBlock;
 import trhod177.bm.blocks.carcasses.PigCarcassBlock;
 import trhod177.bm.blocks.carcasses.RabbitCarcassBlock;
 import trhod177.bm.blocks.carcasses.SheepCarcassBlock;
+import trhod177.bm.blocks.carcasses.SilverFishCarcassBlock;
+import trhod177.bm.blocks.carcasses.SlimeCarcassBlock;
 import trhod177.bm.blocks.carcasses.SquidCarcassBlock;
+import trhod177.bm.blocks.carcasses.VillagerCarcassBlock;
+import trhod177.bm.blocks.carcasses.ZombieCarcassBlock;
+import trhod177.bm.blocks.carcasses.ZombiePigmanCarcassBlock;
+import trhod177.bm.blocks.carcasses.ZombieVillagerCarcassBlock;
 import trhod177.bm.blocks.machines.slowroaster.SlowRoaster;
 import trhod177.bm.blocks.machines.tanningrack.TanningRack;
 import trhod177.bm.items.BmItemFood;
@@ -32,33 +42,43 @@ public class BlockInit {
 	
 	
 	//blocks
-	public static ButcheryTable butcherstable = new ButcheryTable("butcherstable").setCreativeTab(ButcheryMod.BMCT);
-	public static TanningRack tanningrack = new TanningRack("tanningrack").setCreativeTab(ButcheryMod.BMCT);
-	public static SlowRoaster slowroaster = new SlowRoaster("slowroaster").setCreativeTab(ButcheryMod.BMCT);
-	public static CoalIronOre coalironmix = new CoalIronOre("coalironmix").setCreativeTab(ButcheryMod.BMCT);
+	public static ButcheryTable butcherstable = new ButcheryTable("butcherstable").setCreativeTab(SlaughterCraft.BMCT);
+	public static TanningRack tanningrack = new TanningRack("tanningrack").setCreativeTab(SlaughterCraft.BMCT);
+	public static SlowRoaster slowroaster = new SlowRoaster("slowroaster").setCreativeTab(SlaughterCraft.BMCT);
+	public static CoalIronOre coalironmix = new CoalIronOre("coalironmix").setCreativeTab(SlaughterCraft.BMCT);
+	public static SlimeSkull slimeskull = new SlimeSkull("slimeskull").setCreativeTab(SlaughterCraft.BMCT);
+	//public static EndermanSkull endermanskull = new EndermanSkull("endermanskull").setCreativeTab(SlaughterCraft.BMCT);
 	
 	
 	//animal carcasses
-	public static CowCarcassBlock cowcarcass = new CowCarcassBlock("cowcarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static ChickenCarcassBlock chickencarcass = new ChickenCarcassBlock("chickencarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static PigCarcassBlock pigcarcass = new PigCarcassBlock("pigcarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static SheepCarcassBlock sheepcarcass = new SheepCarcassBlock("sheepcarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static DonkeyCarcassBlock donkeycarcass = new DonkeyCarcassBlock("donkeycarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static MuleCarcassBlock mulecarcass = new MuleCarcassBlock("mulecarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static HorseCarcassBlock horsecarcass = new HorseCarcassBlock("horsecarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static LlamaCarcassBlock llamacarcass = new LlamaCarcassBlock("llamacarcass").setCreativeTab(ButcheryMod.BMCT);
-	public static SquidCarcassBlock squidcarcass = new SquidCarcassBlock("squidcarcass").setCreativeTab(ButcheryMod.BMCT);
-    
+	public static CowCarcassBlock cowcarcass = new CowCarcassBlock("cowcarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static ChickenCarcassBlock chickencarcass = new ChickenCarcassBlock("chickencarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static PigCarcassBlock pigcarcass = new PigCarcassBlock("pigcarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static SheepCarcassBlock sheepcarcass = new SheepCarcassBlock("sheepcarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static DonkeyCarcassBlock donkeycarcass = new DonkeyCarcassBlock("donkeycarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static MuleCarcassBlock mulecarcass = new MuleCarcassBlock("mulecarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static HorseCarcassBlock horsecarcass = new HorseCarcassBlock("horsecarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static LlamaCarcassBlock llamacarcass = new LlamaCarcassBlock("llamacarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static SquidCarcassBlock squidcarcass = new SquidCarcassBlock("squidcarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static VillagerCarcassBlock villagercarcass = new VillagerCarcassBlock("villagercarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static ZombieCarcassBlock zombiecarcass = new ZombieCarcassBlock("zombiecarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static ZombieVillagerCarcassBlock zombievillagercarcass = new ZombieVillagerCarcassBlock("zombievillagercarcass").setCreativeTab(SlaughterCraft.BMCT);
+	public static ZombiePigmanCarcassBlock zombiepigmancarcass = new ZombiePigmanCarcassBlock("zombiepigmancarcass").setCreativeTab(SlaughterCraft.BMCT);
+    public static SlimeCarcassBlock slimecarcass = new SlimeCarcassBlock("slimecarcass").setCreativeTab(SlaughterCraft.BMCT);
+    public static CreeperCarcassBlock creepercarcass = new CreeperCarcassBlock("creepercarcass").setCreativeTab(SlaughterCraft.BMCT);
+    public static SilverFishCarcassBlock silverfishcarcass = new SilverFishCarcassBlock("silverfishcarcass").setCreativeTab(SlaughterCraft.BMCT);
+	//public static EnderCarcassBlock endermantorso = new EnderCarcassBlock("endermantorso").setCreativeTab(SlaughterCraft.BMCT);
 	
+    
 	//meat blocks
-	public static MeatBlock roastmutton = new MeatBlock("roastmutton").setCreativeTab(ButcheryMod.BMCT2);
-	public static MeatBlock roastpork = new MeatBlock("roastpork").setCreativeTab(ButcheryMod.BMCT2);
-	public static MeatBlock roastchicken = new MeatBlock("roastchicken").setCreativeTab(ButcheryMod.BMCT2);
-	public static MeatBlock roastbeef = new MeatBlock("roastbeef").setCreativeTab(ButcheryMod.BMCT2);
-	public static MeatBlock uncookedroastmutton = new MeatBlock("uncookedroastmutton").setCreativeTab(ButcheryMod.BMCT2);
-	public static MeatBlock uncookedroastpork = new MeatBlock("uncookedroastpork").setCreativeTab(ButcheryMod.BMCT2);
-	public static MeatBlock uncookedroastchicken = new MeatBlock("uncookedroastchicken").setCreativeTab(ButcheryMod.BMCT2);
-	public static MeatBlock uncookedroastbeef = new MeatBlock("uncookedroastbeef").setCreativeTab(ButcheryMod.BMCT2);
+	public static MeatBlock roastmutton = new MeatBlock("roastmutton").setCreativeTab(SlaughterCraft.BMCT2);
+	public static MeatBlock roastpork = new MeatBlock("roastpork").setCreativeTab(SlaughterCraft.BMCT2);
+	public static MeatBlock roastchicken = new MeatBlock("roastchicken").setCreativeTab(SlaughterCraft.BMCT2);
+	public static MeatBlock roastbeef = new MeatBlock("roastbeef").setCreativeTab(SlaughterCraft.BMCT2);
+	public static MeatBlock uncookedroastmutton = new MeatBlock("uncookedroastmutton").setCreativeTab(SlaughterCraft.BMCT2);
+	public static MeatBlock uncookedroastpork = new MeatBlock("uncookedroastpork").setCreativeTab(SlaughterCraft.BMCT2);
+	public static MeatBlock uncookedroastchicken = new MeatBlock("uncookedroastchicken").setCreativeTab(SlaughterCraft.BMCT2);
+	public static MeatBlock uncookedroastbeef = new MeatBlock("uncookedroastbeef").setCreativeTab(SlaughterCraft.BMCT2);
 			
 	public static void register(IForgeRegistry<Block> registry) {
 		registry.registerAll(
@@ -82,7 +102,16 @@ public class BlockInit {
 				mulecarcass,
 				horsecarcass,
 				llamacarcass,
-				squidcarcass
+				squidcarcass,
+				villagercarcass,
+				zombiecarcass,
+				zombievillagercarcass,
+				zombiepigmancarcass,
+				slimeskull,
+				slimecarcass,
+				creepercarcass
+				//endermantorso,
+				//endermanskull
 				
 		);
 	}
@@ -109,8 +138,16 @@ public class BlockInit {
 				mulecarcass.createItemBlock(),
 				horsecarcass.createItemBlock(),
 				llamacarcass.createItemBlock(),
-				squidcarcass.createItemBlock()
-				
+				squidcarcass.createItemBlock(),
+				villagercarcass.createItemBlock(),
+				zombiecarcass.createItemBlock(),
+				zombievillagercarcass.createItemBlock(),
+				zombiepigmancarcass.createItemBlock(),
+				slimeskull.createItemBlock(),
+				slimecarcass.createItemBlock(),
+				creepercarcass.createItemBlock()
+				//endermantorso.createItemBlock(),
+				//endermanskull.createItemBlock()
 				
 		);
 	
@@ -138,6 +175,16 @@ public class BlockInit {
 		horsecarcass.registerItemModel(Item.getItemFromBlock(horsecarcass));
 		llamacarcass.registerItemModel(Item.getItemFromBlock(llamacarcass));
 		squidcarcass.registerItemModel(Item.getItemFromBlock(squidcarcass));
+		villagercarcass.registerItemModel(Item.getItemFromBlock(villagercarcass));
+		zombiecarcass.registerItemModel(Item.getItemFromBlock(zombiecarcass));
+		zombievillagercarcass.registerItemModel(Item.getItemFromBlock(zombievillagercarcass));
+		zombiepigmancarcass.registerItemModel(Item.getItemFromBlock(zombiepigmancarcass));
+		slimeskull.registerItemModel(Item.getItemFromBlock(slimeskull));
+		slimecarcass.registerItemModel(Item.getItemFromBlock(slimecarcass));
+		creepercarcass.registerItemModel(Item.getItemFromBlock(creepercarcass));
+		//endermantorso.registerItemModel(Item.getItemFromBlock(endermantorso));
+		//endermanskull.registerItemModel(Item.getItemFromBlock(endermanskull));
+		
 		
 	}
 

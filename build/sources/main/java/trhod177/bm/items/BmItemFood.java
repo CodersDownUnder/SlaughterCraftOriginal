@@ -4,7 +4,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 
 
 public class BmItemFood extends ItemFood
@@ -32,12 +32,12 @@ public class BmItemFood extends ItemFood
 	
 	
 	public void registerItemModel() {
-		ButcheryMod.proxy.registerItemRenderer(this, 0, name);
+		SlaughterCraft.proxy.registerItemRenderer(this, 0, name);
 	}
 	
 	@Override
 	public BmItemFood setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT2);
+		super.setCreativeTab(SlaughterCraft.BMCT2);
 		return this;
      }
 }

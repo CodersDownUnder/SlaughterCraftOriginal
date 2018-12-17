@@ -22,7 +22,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.init.BlockInit;
 import trhod177.bm.init.ItemInit;
 
@@ -48,13 +48,13 @@ public class ItemKnife extends Item {
     }
 	
 	public void registerItemModel() {
-		ButcheryMod.proxy.registerItemRenderer(this, 0, name);
+		SlaughterCraft.proxy.registerItemRenderer(this, 0, name);
 	}
 	
 	
 	@Override
 	public ItemKnife setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT3);
+		super.setCreativeTab(SlaughterCraft.BMCT3);
 		return this;
      }
 }

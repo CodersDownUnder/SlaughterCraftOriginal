@@ -13,7 +13,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.blocks.CustomBlock;
 import trhod177.bm.handlers.ConfigHandler;
 import trhod177.bm.init.ItemInit;
@@ -69,7 +69,7 @@ public class LlamaCarcassBlock extends CustomBlock{
 
 	@Override
 	public LlamaCarcassBlock setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT);
+		super.setCreativeTab(SlaughterCraft.BMCT);
 		return this;
 	}
 }

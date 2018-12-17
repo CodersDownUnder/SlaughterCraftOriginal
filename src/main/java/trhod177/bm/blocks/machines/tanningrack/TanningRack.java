@@ -34,7 +34,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import scala.collection.TraversableOnce.OnceCanBuildFrom;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.References;
 import trhod177.bm.blocks.CustomBlock;
 import trhod177.bm.blocks.TempBlock;
@@ -93,7 +93,7 @@ public class TanningRack extends CustomBlock {
 	
 	@Override
 	public TanningRack setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ButcheryMod.BMCT);
+		super.setCreativeTab(SlaughterCraft.BMCT);
 		return this;
 	}
 	

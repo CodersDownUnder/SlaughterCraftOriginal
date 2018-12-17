@@ -4,7 +4,7 @@ import java.io.File;
 
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import trhod177.bm.ButcheryMod;
+import trhod177.bm.SlaughterCraft;
 import trhod177.bm.References;
 
 public class ConfigHandler {
@@ -26,6 +26,8 @@ public class ConfigHandler {
 	public static boolean addbutcherbuildingtm;
 	public static boolean addbutcherbuildingtms;
 	public static boolean addbutcherbuildingth;
+	public static boolean dropdefaultandcarcassondeath;
+	
 	
 	public static String VERSION;
 	
@@ -35,12 +37,15 @@ public class ConfigHandler {
 		
 		String category;
 		
+		category = "Misc Mod Info";
+		config.addCustomCategoryComment(category, References.VERSION);
+	
 		
 		category = "Mob Drops";
 		config.addCustomCategoryComment(category, "Overriding Mob Drops");
-	    overridemobdrops = config.getBoolean("Override MobDrops", category, true, "If true mob drops will be overriden for cows, pig, sheep, chickens");
+	    overridemobdrops = config.getBoolean("Override MobDrops", category, true, "Carcasses will drop the mobs default drops on destruction");
 	    adddefaultdrops = config.getBoolean("Default MobDrops", category, false, "If true default drops will be dropped when you mine carcass as well as modded drops");
-	    
+	    dropdefaultandcarcassondeath = config.getBoolean("Drop Default And Carcass", category, false, "If true mobs will drop both there default drops aswell as their carcasses");
 	    
 	    category = "Buildings";
 	    config.addCustomCategoryComment(category, "Buildings");
@@ -59,9 +64,9 @@ public class ConfigHandler {
 	}
 	
 	public static void registerConfig(FMLPreInitializationEvent event) {
-		ButcheryMod.config = new File(event.getModConfigurationDirectory() + "/" + References.MODID);
-		ButcheryMod.config.mkdirs();
-		init(new File(ButcheryMod.config.getPath(), References.MODID + ".cfg"));
+		SlaughterCraft.config = new File(event.getModConfigurationDirectory() + "/" + References.MODID);
+		SlaughterCraft.config.mkdirs();
+		init(new File(SlaughterCraft.config.getPath(), References.MODID + ".cfg"));
 				
 	}
 	
