@@ -1,20 +1,8 @@
-
-
-
 {
-
-
-
-"variants": {
-
-
-
-      "normal": { "model": "slaughtercraft:zombiecarcass" }
-
-
-
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:zombiecarcass" },
+        "facing=south": { "model": "slaughtercraft:zombiecarcass", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:zombiecarcass", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:zombiecarcass", "y": 90 }
     }
-
-
-
 }

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:stewpot" },
+        "facing=south": { "model": "slaughtercraft:stewpot", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:stewpot", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:stewpot", "y": 90 }
+    }
+}

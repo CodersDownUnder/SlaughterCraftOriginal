@@ -1,6 +1,7 @@
 package trhod177.bm;
 
 import java.io.File;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,8 +19,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
@@ -29,6 +30,7 @@ import net.minecraft.world.storage.loot.LootPool;
 import net.minecraft.world.storage.loot.LootTableList;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import net.minecraft.world.storage.loot.functions.LootFunction;
+
 import net.minecraftforge.client.event.DrawBlockHighlightEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -46,17 +48,21 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+
 import trhod177.bm.blocks.TempBlock;
 import trhod177.bm.blocks.machines.tanningrack.TanningRack;
 import trhod177.bm.creativetabs.ButcheryModCreativeTab;
 import trhod177.bm.creativetabs.ButcheryModCreativeTab2;
 import trhod177.bm.creativetabs.ButcheryModCreativeTab3;
+
 //import trhod177.bm.events.EventPlayerJoin;
-import trhod177.bm.handlers.BmOreDictionaryHandler;
+import trhod177.bm.handlers.SCOreDictionaryHandler;
 import trhod177.bm.handlers.ConfigHandler;
+
 //import trhod177.bm.handlers.GuiHandler;
 import trhod177.bm.handlers.RecipeHandler;
 import trhod177.bm.init.ArmourInit;
+
 //import trhod177.bm.handlers.TileEntityHandler;
 import trhod177.bm.init.BlockInit;
 import trhod177.bm.init.ItemInit;
@@ -66,116 +72,98 @@ import trhod177.bm.proxy.CommonProxy;
 import trhod177.bm.worldgen.WorldGenCustomOres;
 import trhod177.bm.worldgen.WorldGenCustomStructures;
 
-
-@Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
+@Mod(modid   = References.MODID, name    = References.NAME, version = References.VERSION)
 public class SlaughterCraft {
-	
-	 
-		public static final CreativeTabs BMCT = new ButcheryModCreativeTab("BlockInit.cowcarcass");
-		public static final CreativeTabs BMCT2 = new ButcheryModCreativeTab2("ItemInit.cowbelly");
-		public static final CreativeTabs BMCT3 = new ButcheryModCreativeTab3("ItemInit.deboningknife");
-	    
-	
-	    
-	    public static File config;
-	    
-		
-		@SidedProxy(clientSide = References.CLIENTPROXY, serverSide = References.COMMONPROXY)
-		public static CommonProxy proxy;
-		
-		@Mod.Instance(References.MODID)
-		public static SlaughterCraft instance;
+    public static final CreativeTabs BMCT  = new ButcheryModCreativeTab("BlockInit.cowcarcass");
+    public static final CreativeTabs BMCT2 = new ButcheryModCreativeTab2("ItemInit.cowbelly");
+    public static final CreativeTabs BMCT3 = new ButcheryModCreativeTab3("ItemInit.butcherknife");
+    
+    public static File config;
+    
+    @SidedProxy(clientSide = References.CLIENTPROXY, serverSide = References.COMMONPROXY)
+    
+    public static CommonProxy proxy;
+    @Mod.Instance(References.MODID)
+    public static SlaughterCraft instance;
 
-		@Mod.EventBusSubscriber
-		public static class RegistrationHandler {
 
-			@SubscribeEvent
-			public static void registerBlocks(RegistryEvent.Register<Block> event) {
-				BlockInit.register(event.getRegistry());
-				
-			}
-			
+    public void registerItemRenderer(Item item, int meta, String id) {
+        ModelLoader.setCustomModelResourceLocation(item,
+                                                   meta,
+                                                   new ModelResourceLocation(References.MODID + ":" + id, "inventory"));
+        new ModelResourceLocation(item.getRegistryName() + "variantName", "inventory");
+    }
 
-			@SubscribeEvent
-			public static void registerItems(RegistryEvent.Register<Item> event) {
-				ItemInit.register(event.getRegistry());
-				ArmourInit.register(event.getRegistry());
-				BlockInit.registerItemBlocks(event.getRegistry());
-				
-			}
-			
-			@SubscribeEvent
-			public static void registerModels(ModelRegistryEvent event) {
-				ItemInit.registerModels();
-				ArmourInit.registerModels();
-				BlockInit.registerModels();
-				
-			}
-			
-			@SubscribeEvent
-			public static void registerItems(ModelRegistryEvent event) {
-				ItemInit.registerModels();
-				ArmourInit.registerModels();
-			}
-			
+    @Mod.EventBusSubscriber
+    public static class RegistrationHandler {
+        @SubscribeEvent
+        public static void registerBlocks(RegistryEvent.Register<Block> event) {
+            BlockInit.register(event.getRegistry());
+        }
 
-	  
-		}
-		
-		public void registerItemRenderer(Item item, int meta, String id) {
-			ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(References.MODID + ":" + id, "inventory"));
-			new ModelResourceLocation(item.getRegistryName() + "variantName", "inventory");
+        @SubscribeEvent
+        public static void registerItems(ModelRegistryEvent event) {
+            ItemInit.registerModels();
+            ArmourInit.registerModels();
+        }
 
-		}
-		
-		
-		
-		@EventHandler
-		public static void preInit(FMLPreInitializationEvent event) {
-			proxy.preInit(event);
-			ConfigHandler.registerConfig(event);
-			otherRegisters();
-			
-			
-		}
-		
-		@EventHandler
-		public static void init(FMLInitializationEvent event) {
-			proxy.init(event);
-            
-			MinecraftForge.EVENT_BUS.register(new MobDrops());
-			BmOreDictionaryHandler.registerOres();
-			RecipeHandler.registerShapedRecipes();
-			RecipeHandler.registerShapelessRecipes();
-			RecipeHandler.registerFurnaceRecipes();
-			//MinecraftForge.EVENT_BUS.register(new EventPlayerJoin());
-			
-			
-			
-		}
-		
-		@EventHandler
-		public static void postInit(FMLPostInitializationEvent event) {
-			proxy.postInit(event);
-		}
-		
-		public static void otherRegisters() {
-			
-			GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
-			GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
-			
-			GlStateManager.pushMatrix();
-			GlStateManager.enableBlend();
-			GL11.glEnable(GL11.GL_BLEND);
-			GlStateManager.tryBlendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
-			GlStateManager.disableBlend();
-			GlStateManager.popMatrix();
-		}
-		
-		
-		
-		    
+        @SubscribeEvent
+        public static void registerItems(RegistryEvent.Register<Item> event) {
+            ItemInit.register(event.getRegistry());
+            ArmourInit.register(event.getRegistry());
+            BlockInit.registerItemBlocks(event.getRegistry());
+        }
+
+        @SubscribeEvent
+        public static void registerModels(ModelRegistryEvent event) {
+            ItemInit.registerModels();
+            ArmourInit.registerModels();
+            BlockInit.registerModels();
+        }
+    }
+    
+    
+
+    @EventHandler
+    public static void preInit(FMLPreInitializationEvent event) {
+        proxy.preInit(event);
+        ConfigHandler.registerConfig(event);
+        otherRegisters();
+    }
+    
+    @EventHandler
+    public static void init(FMLInitializationEvent event) {
+        proxy.init(event);
+        MinecraftForge.EVENT_BUS.register(new MobDrops());
+        SCOreDictionaryHandler.registerOres();
+        RecipeHandler.registerShapedRecipes();
+        RecipeHandler.registerShapelessRecipes();
+        RecipeHandler.registerFurnaceRecipes();
+
+        // MinecraftForge.EVENT_BUS.register(new EventPlayerJoin());
+    }
+    
+    @EventHandler
+    public static void postInit(FMLPostInitializationEvent event) {
+        proxy.postInit(event);
+    }
+
+    public static void otherRegisters() {
+        GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+        GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
+        GlStateManager.pushMatrix();
+        GlStateManager.enableBlend();
+        GL11.glEnable(GL11.GL_BLEND);
+        GlStateManager.tryBlendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA,
+                                            GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA,
+                                            GlStateManager.SourceFactor.ONE,
+                                            GlStateManager.DestFactor.ZERO);
+        GlStateManager.disableBlend();
+        GlStateManager.popMatrix();
+    }
+
+   
 }
-		
+
 
 

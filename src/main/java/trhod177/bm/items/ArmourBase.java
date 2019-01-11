@@ -46,19 +46,18 @@ public class ArmourBase extends ItemArmor {
 			{
 				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3, false, false));
 				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1, false, false));
+		  /*	}
 				
-			}
-			
-			if(player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidboots &&
-			   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidleggings &&
-			   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidchestplate &&
-			   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidhelmet) 
-			{
-				
-				player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 3, false, false));
-				
-			 
-			}
+				if(player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidboots &&
+				   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidleggings &&
+				   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidchestplate &&
+				   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidhelmet) 
+				{
+					
+					player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 3, false, false));
+					
+				 }*/
+				}
 		}
 	}
 	

@@ -1,20 +1,8 @@
-
-
-
 {
-
-
-
-"variants": {
-
-
-
-      "normal": { "model": "slaughtercraft:mooshroomcarcass" }
-
-
-
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:mooshroomcarcass" },
+        "facing=south": { "model": "slaughtercraft:mooshroomcarcass", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:mooshroomcarcass", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:mooshroomcarcass", "y": 90 }
     }
-
-
-
 }

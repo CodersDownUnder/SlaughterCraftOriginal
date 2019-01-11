@@ -36,12 +36,12 @@ public class ArmourInit {
 	public static ArmourBase slimeleggings = new ArmourBase("slimeleggings", ARMOUR_SLIME, 2, EntityEquipmentSlot.LEGS).setCreativeTab(SlaughterCraft.BMCT3);
 	public static ArmourBase slimeboots = new ArmourBase("slimeboots", ARMOUR_SLIME, 1, EntityEquipmentSlot.FEET).setCreativeTab(SlaughterCraft.BMCT3);
 	
-	//squid armour
+	/*//squid armour
 	public static ArmourBase squidhelmet = new ArmourBase("squidhelmet", ARMOUR_SQUID, 1, EntityEquipmentSlot.HEAD).setCreativeTab(SlaughterCraft.BMCT3);
 	public static ArmourBase squidchestplate = new ArmourBase("squidchestplate", ARMOUR_SQUID, 1, EntityEquipmentSlot.CHEST).setCreativeTab(SlaughterCraft.BMCT3);
 	public static ArmourBase squidleggings = new ArmourBase("squidleggings", ARMOUR_SQUID, 2, EntityEquipmentSlot.LEGS).setCreativeTab(SlaughterCraft.BMCT3);
 	public static ArmourBase squidboots = new ArmourBase("squidboots", ARMOUR_SQUID, 1, EntityEquipmentSlot.FEET).setCreativeTab(SlaughterCraft.BMCT3);
-	
+	*/
 	
 	
 	
@@ -50,12 +50,12 @@ public class ArmourInit {
         slimehelmet,
         slimechestplate,
         slimeleggings,
-        slimeboots,
-        squidhelmet,
+        slimeboots
+      /*  squidhelmet,
         squidchestplate,
         squidleggings,
         squidboots
-	          
+	          */
 			  );
 	  
 	
@@ -67,10 +67,10 @@ public class ArmourInit {
 	        slimechestplate.registerItemModel();
 	        slimeleggings.registerItemModel();
 	        slimeboots.registerItemModel();
-	        squidhelmet.registerItemModel();
+	       /* squidhelmet.registerItemModel();
 	        squidchestplate.registerItemModel();
 	        squidleggings.registerItemModel();
-	        squidboots.registerItemModel();
+	        squidboots.registerItemModel();*/
         
 		
 	}

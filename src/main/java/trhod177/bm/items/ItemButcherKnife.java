@@ -43,6 +43,22 @@ public class ItemButcherKnife extends ItemPickaxe  {
 	}
 
 
+	  @Override
+	    public boolean hasContainerItem(ItemStack stack) {
+	        return true;
+	    }
+	    
+	    @Override
+	    public ItemStack getContainerItem(ItemStack itemStack) {
+	        if (itemStack.getMaxDamage() == itemStack.getItemDamage()) {
+	            return ItemStack.EMPTY;
+	            
+	    } else {
+	        ItemStack newItemStack = itemStack.copy();
+	        newItemStack.setItemDamage(itemStack.getItemDamage() + 1);
+	        return newItemStack;
+	    }
+	    }
 	    
 	@SideOnly(Side.CLIENT)
     public boolean isFull3D()

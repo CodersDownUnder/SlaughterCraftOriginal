@@ -1,20 +1,8 @@
-
-
-
 {
-
-
-
-"variants": {
-
-
-
-      "normal": { "model": "slaughtercraft:horsecarcass" }
-
-
-
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:horsecarcass" },
+        "facing=south": { "model": "slaughtercraft:horsecarcass", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:horsecarcass", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:horsecarcass", "y": 90 }
     }
-
-
-
 }

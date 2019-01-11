@@ -1,10 +1,15 @@
 package trhod177.bm.items;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import trhod177.bm.SlaughterCraft;
+import trhod177.bm.init.ItemInit;
 
 
 public class BmItemFood extends ItemFood

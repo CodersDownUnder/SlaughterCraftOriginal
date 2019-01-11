@@ -19,6 +19,7 @@ import trhod177.bm.blocks.carcasses.CowCarcassBlock;
 import trhod177.bm.blocks.carcasses.CreeperCarcassBlock;
 import trhod177.bm.blocks.carcasses.DonkeyCarcassBlock;
 import trhod177.bm.blocks.carcasses.EnderCarcassBlock;
+import trhod177.bm.blocks.carcasses.EvokerCarcassBlock;
 import trhod177.bm.blocks.carcasses.HorseCarcassBlock;
 import trhod177.bm.blocks.carcasses.LlamaCarcassBlock;
 
@@ -30,10 +31,12 @@ import trhod177.bm.blocks.carcasses.SilverFishCarcassBlock;
 import trhod177.bm.blocks.carcasses.SlimeCarcassBlock;
 import trhod177.bm.blocks.carcasses.SquidCarcassBlock;
 import trhod177.bm.blocks.carcasses.VillagerCarcassBlock;
+import trhod177.bm.blocks.carcasses.VindicatorCarcassBlock;
 import trhod177.bm.blocks.carcasses.ZombieCarcassBlock;
 import trhod177.bm.blocks.carcasses.ZombiePigmanCarcassBlock;
 import trhod177.bm.blocks.carcasses.ZombieVillagerCarcassBlock;
 import trhod177.bm.blocks.machines.slowroaster.SlowRoaster;
+import trhod177.bm.blocks.machines.stewpot.StewPot;
 import trhod177.bm.blocks.machines.tanningrack.TanningRack;
 import trhod177.bm.items.BmItemFood;
 
@@ -47,6 +50,7 @@ public class BlockInit {
 	public static SlowRoaster slowroaster = new SlowRoaster("slowroaster").setCreativeTab(SlaughterCraft.BMCT);
 	public static CoalIronOre coalironmix = new CoalIronOre("coalironmix").setCreativeTab(SlaughterCraft.BMCT);
 	public static SlimeSkull slimeskull = new SlimeSkull("slimeskull").setCreativeTab(SlaughterCraft.BMCT);
+	public static StewPot stewpot = new StewPot("stewpot").setCreativeTab(SlaughterCraft.BMCT);
 	//public static EndermanSkull endermanskull = new EndermanSkull("endermanskull").setCreativeTab(SlaughterCraft.BMCT);
 	
 	
@@ -66,7 +70,9 @@ public class BlockInit {
 	public static ZombiePigmanCarcassBlock zombiepigmancarcass = new ZombiePigmanCarcassBlock("zombiepigmancarcass").setCreativeTab(SlaughterCraft.BMCT);
     public static SlimeCarcassBlock slimecarcass = new SlimeCarcassBlock("slimecarcass").setCreativeTab(SlaughterCraft.BMCT);
     public static CreeperCarcassBlock creepercarcass = new CreeperCarcassBlock("creepercarcass").setCreativeTab(SlaughterCraft.BMCT);
-    public static SilverFishCarcassBlock silverfishcarcass = new SilverFishCarcassBlock("silverfishcarcass").setCreativeTab(SlaughterCraft.BMCT);
+    //public static SilverFishCarcassBlock silverfishcarcass = new SilverFishCarcassBlock("silverfishcarcass").setCreativeTab(SlaughterCraft.BMCT);
+    public static VindicatorCarcassBlock vindicatorcarcass = new VindicatorCarcassBlock("vindicatorcarcass").setCreativeTab(SlaughterCraft.BMCT);
+    public static EvokerCarcassBlock evokercarcass = new EvokerCarcassBlock("evokercarcass").setCreativeTab(SlaughterCraft.BMCT);
 	//public static EnderCarcassBlock endermantorso = new EnderCarcassBlock("endermantorso").setCreativeTab(SlaughterCraft.BMCT);
 	
     
@@ -109,7 +115,11 @@ public class BlockInit {
 				zombiepigmancarcass,
 				slimeskull,
 				slimecarcass,
-				creepercarcass
+				creepercarcass,
+				vindicatorcarcass,
+				evokercarcass,
+				stewpot
+				//silverfishcarcass,
 				//endermantorso,
 				//endermanskull
 				
@@ -145,7 +155,11 @@ public class BlockInit {
 				zombiepigmancarcass.createItemBlock(),
 				slimeskull.createItemBlock(),
 				slimecarcass.createItemBlock(),
-				creepercarcass.createItemBlock()
+				creepercarcass.createItemBlock(),
+				vindicatorcarcass.createItemBlock(),
+				evokercarcass.createItemBlock(),
+				stewpot.createItemBlock()
+				//silverfishcarcass.createItemBlock(),
 				//endermantorso.createItemBlock(),
 				//endermanskull.createItemBlock()
 				
@@ -182,6 +196,10 @@ public class BlockInit {
 		slimeskull.registerItemModel(Item.getItemFromBlock(slimeskull));
 		slimecarcass.registerItemModel(Item.getItemFromBlock(slimecarcass));
 		creepercarcass.registerItemModel(Item.getItemFromBlock(creepercarcass));
+		vindicatorcarcass.registerItemModel(Item.getItemFromBlock(vindicatorcarcass));
+		evokercarcass.registerItemModel(Item.getItemFromBlock(evokercarcass));
+		stewpot.registerItemModel(Item.getItemFromBlock(stewpot));
+		//silverfishcarcass.registerItemModel(Item.getItemFromBlock(silverfishcarcass));
 		//endermantorso.registerItemModel(Item.getItemFromBlock(endermantorso));
 		//endermanskull.registerItemModel(Item.getItemFromBlock(endermanskull));
 		

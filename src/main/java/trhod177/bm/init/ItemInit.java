@@ -10,6 +10,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 import trhod177.bm.SlaughterCraft;
 import trhod177.bm.items.AnimalParts;
 import trhod177.bm.items.BmItemFood;
+import trhod177.bm.items.BmItemFood2;
 import trhod177.bm.items.ItemAnimalSkin;
 import trhod177.bm.items.ItemButcherKnife;
 import trhod177.bm.items.ItemCleaver;
@@ -25,7 +26,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ItemInit {
 	
 	
-	public static final ToolMaterial BMSTEEL = EnumHelper.addToolMaterial("BMSTEEL", 3, 1500, 13f, 4.0f, 30);
+	public static final ToolMaterial BMSTEEL = EnumHelper.addToolMaterial("BMSTEEL", 3, 400, 13f, 4.0f, 30);
 	
 	
 	//knives and misc
@@ -37,6 +38,7 @@ public class ItemInit {
 	public static ItemSteelIngot steelingot = new ItemSteelIngot("steelingot").setCreativeTab(SlaughterCraft.BMCT3);
 	public static ModItem steelrod = new ModItem("steelrod").setCreativeTab(SlaughterCraft.BMCT3);
 	public static ModItem stonepole = new ModItem("stonepole").setCreativeTab(SlaughterCraft.BMCT3);
+	
 	
 	//animalparts
 	public static AnimalParts chickenleg = new AnimalParts("chickenleg", 1, true).setCreativeTab(SlaughterCraft.BMCT2);
@@ -88,7 +90,6 @@ public class ItemInit {
 	public static BmItemFood roastchickenslice = new BmItemFood("roastchickenslice", 4, true).setCreativeTab(SlaughterCraft.BMCT2);
 	public static BmItemFood roastporkslice = new BmItemFood("roastporkslice", 4, true).setCreativeTab(SlaughterCraft.BMCT2);
 	public static BmItemFood roastmuttonslice = new BmItemFood("roastmuttonslice", 4, true).setCreativeTab(SlaughterCraft.BMCT2);
-    	
 	
 	
 	//animalskins
@@ -96,6 +97,26 @@ public class ItemInit {
 	public static ItemAnimalSkin untannedsheepskin = new ItemAnimalSkin("untannedsheepskin").setCreativeTab(SlaughterCraft.BMCT3);
 	public static ItemAnimalSkin untannedpigskin = new ItemAnimalSkin("untannedpigskin").setCreativeTab(SlaughterCraft.BMCT3);
 	public static ItemAnimalSkin slimeskinleather = new ItemAnimalSkin("slimeskinleather").setCreativeTab(SlaughterCraft.BMCT3);
+	
+	
+	//Soups, Broths, And Stews
+	public static BmItemFood2 chickenbroth = new BmItemFood2("chickenbroth", 2, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 porkbroth = new BmItemFood2("porkbroth", 2, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 beefbroth = new BmItemFood2("beefbroth", 2, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 lambbroth = new BmItemFood2("lambbroth", 2, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 fishbroth = new BmItemFood2("fishbroth", 2, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 chickensoup = new BmItemFood2("chickensoup", 6, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 porksoup = new BmItemFood2("porksoup", 6, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 beefsoup = new BmItemFood2("beefsoup", 6, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 lambsoup = new BmItemFood2("lambsoup", 6, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 fishsoup = new BmItemFood2("fishsoup", 6, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 chickenstew = new BmItemFood2("chickenstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 porkstew = new BmItemFood2("porkstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 beefstew = new BmItemFood2("beefstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 lambstew = new BmItemFood2("lambstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
+	public static BmItemFood2 fishstew = new BmItemFood2("fishstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
+	
+	
 	
 	public static void register(IForgeRegistry<Item> registry) {
 	  registry.registerAll(
@@ -157,7 +178,22 @@ public class ItemInit {
 			mulemeat,
 			cookedllamameat,
 			llamameat,
-			slimeskinleather
+			slimeskinleather,
+			chickenbroth,
+			porkbroth,
+			beefbroth,
+			lambbroth,
+			fishbroth,
+			chickensoup,
+			porksoup,
+			beefsoup,
+			lambsoup,
+			fishsoup,
+			chickenstew,
+			porkstew,
+			beefstew,
+			lambstew,
+			fishstew
 	          
 			  );
 	  
@@ -224,6 +260,21 @@ public class ItemInit {
 		cookedllamameat.registerItemModel();
 		llamameat.registerItemModel();
 		slimeskinleather.registerItemModel();
+		chickenbroth.registerItemModel();
+		porkbroth.registerItemModel();
+		beefbroth.registerItemModel();
+		lambbroth.registerItemModel();
+		fishbroth.registerItemModel();
+		chickensoup.registerItemModel();
+		porksoup.registerItemModel();
+		beefsoup.registerItemModel();
+		lambsoup.registerItemModel();
+		fishsoup.registerItemModel();
+		chickenstew.registerItemModel();
+		porkstew.registerItemModel();
+		beefstew.registerItemModel();
+		lambstew.registerItemModel();
+		fishstew.registerItemModel();
 		
 	}
 	

@@ -4,7 +4,7 @@ public class References {
     public static final String MODID       = "slaughtercraft";
     public static final String NAME        = "SlaughterCraft";
     public static final String MCVERSION   = "1.12.2";
-    public static final String VERSION     = "BetaV0.1.9.4B";
+    public static final String VERSION     = "BetaV0.2.5";
     public static final String VERSIONTYPE = "Beta";
 
     // public static final String DEPENDS = "required-before:guideapi";

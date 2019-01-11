@@ -1,144 +1,139 @@
-[22:57:26] [main/INFO] [GradleStart]: Extra: []
-[22:57:26] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/tom/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[22:57:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:57:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:57:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[22:57:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[22:57:26] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2775 for Minecraft 1.12.2 loading
-[22:57:26] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-39-generic, installed at /usr/lib/jvm/java-8-oracle/jre
-[22:57:26] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[22:57:26] [main/ERROR] [FML]: Full: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
-[22:57:26] [main/ERROR] [FML]: Trimmed: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[22:57:26] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[22:57:26] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[22:57:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[22:57:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[22:57:27] [main/INFO] [FML]: Searching /home/tom/Desktop/modding/ButcheryMod/ButcheryMod/ButcheryCraft/run/./mods for mods
-[22:57:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[22:57:27] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[22:57:27] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[22:57:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:57:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:57:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[22:57:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:57:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:57:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:57:28] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[22:57:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:57:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:57:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[22:57:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:57:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:57:28] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[22:57:29] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player160
-[22:57:32] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[22:57:32] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[22:57:33] [main/INFO] [FML]: -- System Details --
+[12:55:23] [main/INFO] [GradleStart]: Extra: []
+[12:55:23] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/tom/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[12:55:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:55:23] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:55:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:55:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:55:23] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2775 for Minecraft 1.12.2 loading
+[12:55:23] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-43-generic, installed at /usr/lib/jvm/java-8-oracle/jre
+[12:55:23] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[12:55:23] [main/ERROR] [FML]: Full: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[12:55:23] [main/ERROR] [FML]: Trimmed: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[12:55:23] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[12:55:23] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[12:55:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[12:55:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[12:55:24] [main/INFO] [FML]: Searching /home/tom/Desktop/modding/SlaughterCraft/SlaughterCraft/run/./mods for mods
+[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:55:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[12:55:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[12:55:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:55:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:55:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:55:25] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[12:55:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:55:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:55:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:55:26] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[12:55:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:55:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:55:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[12:55:26] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player505
+[12:55:30] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[12:55:30] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[12:55:30] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
-	Operating System: Linux (amd64) version 4.15.0-39-generic
+	Operating System: Linux (amd64) version 4.15.0-43-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 894966656 bytes (853 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	Memory: 925711208 bytes (882 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 390.77' Renderer: 'GeForce GT 730/PCIe/SSE2'
-[22:57:33] [main/INFO] [FML]: MinecraftForge v14.23.5.2775 Initialized
-[22:57:33] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[22:57:33] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[22:57:33] [main/INFO] [FML]: Searching /home/tom/Desktop/modding/ButcheryMod/ButcheryMod/ButcheryCraft/run/./mods for mods
-[22:57:34] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[22:57:34] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi] at CLIENT
-[22:57:34] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi] at SERVER
-[22:57:35] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SlaughterCraft, FMLFileResourcePack:Guide-API
-[22:57:35] [main/INFO] [FML]: Processing ObjectHolder annotations
-[22:57:35] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[22:57:35] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[22:57:35] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[22:57:35] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[22:57:35] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[22:57:35] [main/INFO] [STDOUT]: [trhod177.bm.proxy.ClientProxy:preInit:23]: this is loaded
-[22:57:35] [main/INFO] [FML]: Applying holder lookups
-[22:57:35] [main/INFO] [FML]: Holder lookups applied
-[22:57:35] [main/INFO] [FML]: Applying holder lookups
-[22:57:35] [main/INFO] [FML]: Holder lookups applied
-[22:57:35] [main/INFO] [FML]: Applying holder lookups
-[22:57:35] [main/INFO] [FML]: Holder lookups applied
-[22:57:35] [main/INFO] [FML]: Applying holder lookups
-[22:57:35] [main/INFO] [FML]: Holder lookups applied
-[22:57:35] [main/INFO] [FML]: Injecting itemstacks
-[22:57:35] [main/INFO] [FML]: Itemstack injection complete
-[22:57:35] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 117288684 nanos
-[22:57:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2796
-[22:57:36] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[22:57:37] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[22:57:37] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[22:57:37] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[22:57:37] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[22:57:39] [main/INFO] [FML]: Max texture size: 16384
-[22:57:39] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
-[22:57:41] [main/INFO] [FML]: Applying holder lookups
-[22:57:41] [main/INFO] [FML]: Holder lookups applied
-[22:57:41] [main/INFO] [FML]: Injecting itemstacks
-[22:57:41] [main/INFO] [FML]: Itemstack injection complete
-[22:57:41] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[22:57:41] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[22:57:41] [main/INFO] [com.mojang.text2speech.NarratorLinux]: Narrator library successfully loaded
-[22:57:43] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[22:57:45] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[22:57:45] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[22:57:45] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:roastmutton
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:zombievillagercarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:coalironmix
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:slowroaster
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:horsecarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world slaughtercraft:endermantorso
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world slaughtercraft:endermanskull
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:squidcarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:mulecarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:chickencarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:slimeskull
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:cowcarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:tanningrack
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:donkeycarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:roastbeef
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:uncookedroastbeef
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:zombiepigmancarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:llamacarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:butcherstable
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:roastpork
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:roastchicken
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:villagercarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:zombiecarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:sheepcarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:pigcarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:uncookedroastchicken
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:slimecarcass
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:uncookedroastmutton
-[22:57:45] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world butcherymod:uncookedroastpork
-[22:57:45] [Server thread/INFO] [FML]: Applying holder lookups
-[22:57:45] [Server thread/INFO] [FML]: Holder lookups applied
-[22:57:46] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@733b3eb9)
-[22:57:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[22:57:46] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@733b3eb9)
-[22:57:46] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@733b3eb9)
-[22:57:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[22:57:47] [Server thread/INFO] [FML]: Unloading dimension -1
-[22:57:47] [Server thread/INFO] [FML]: Unloading dimension 1
-[22:57:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 7, from 10
-[22:57:49] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[22:57:49] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[22:57:49] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,guideapi@1.12-2.1.7-62,FML@8.0.99.99,forge@14.23.5.2775,slaughtercraft@BetaV0.1.9.4B,mcp@9.42
-[22:57:49] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[22:57:49] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[22:57:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player160[local:E:a42642f7] logged in with entity id 60 at (-701.2807330145408, 4.0, 82.8173935089787)
-[22:57:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player160 joined the game
-[22:57:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[22:57:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[22:57:50] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7ec04259[id=691b5991-d81d-336c-9128-6e2de0ef0a95,name=Player160,properties={},legacy=false]
+[12:55:30] [main/INFO] [FML]: MinecraftForge v14.23.5.2775 Initialized
+[12:55:30] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[12:55:31] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[12:55:31] [main/INFO] [FML]: Searching /home/tom/Desktop/modding/SlaughterCraft/SlaughterCraft/run/./mods for mods
+[12:55:32] [main/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.2.353
+[12:55:32] [main/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
+[12:55:32] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi, codechickenlib, jei, nei] at CLIENT
+[12:55:32] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi, codechickenlib, jei, nei] at SERVER
+[12:55:33] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 116398425 nanos
+[12:55:33] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SlaughterCraft, FMLFileResourcePack:Guide-API, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Not Enough Items
+[12:55:34] [main/INFO] [FML]: Processing ObjectHolder annotations
+[12:55:34] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[12:55:34] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[12:55:34] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[12:55:34] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[12:55:34] [main/INFO] [STDOUT]: [trhod177.bm.proxy.ClientProxy:preInit:23]: this is loaded
+[12:55:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[12:55:34] [main/INFO] [FML]: Applying holder lookups
+[12:55:34] [main/INFO] [FML]: Holder lookups applied
+[12:55:35] [main/INFO] [FML]: Applying holder lookups
+[12:55:35] [main/INFO] [FML]: Holder lookups applied
+[12:55:35] [main/INFO] [FML]: Applying holder lookups
+[12:55:35] [main/INFO] [FML]: Holder lookups applied
+[12:55:35] [main/INFO] [FML]: Applying holder lookups
+[12:55:35] [main/INFO] [FML]: Holder lookups applied
+[12:55:35] [main/INFO] [FML]: Injecting itemstacks
+[12:55:35] [main/INFO] [FML]: Itemstack injection complete
+[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2806
+[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
+[12:55:36] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[12:55:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[12:55:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:55:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[12:55:36] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[12:55:36] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Found status: BETA Target: null
+[12:55:38] [main/INFO] [FML]: Max texture size: 16384
+[12:55:39] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[12:55:40] [main/INFO] [FML]: Applying holder lookups
+[12:55:40] [main/INFO] [FML]: Holder lookups applied
+[12:55:40] [main/INFO] [FML]: Injecting itemstacks
+[12:55:40] [main/INFO] [FML]: Itemstack injection complete
+[12:55:40] [main/INFO] [jei]: Starting JEI...
+[12:55:41] [main/INFO] [jei]: Registering recipe categories...
+[12:55:41] [main/INFO] [jei]: Registering recipe categories took 30.51 ms
+[12:55:41] [main/INFO] [jei]: Registering mod plugins...
+[12:55:41] [main/INFO] [jei]: Registering mod plugins took 228.2 ms
+[12:55:41] [main/INFO] [jei]: Building recipe registry...
+[12:55:41] [main/INFO] [jei]: Building recipe registry took 112.1 ms
+[12:55:41] [main/INFO] [jei]: Building ingredient list...
+[12:55:41] [main/INFO] [jei]: Building ingredient list took 40.65 ms
+[12:55:41] [main/INFO] [jei]: Building ingredient filter...
+[12:55:41] [main/INFO] [jei]: Building ingredient filter took 399.2 ms
+[12:55:41] [main/INFO] [jei]: Building runtime...
+[12:55:42] [main/INFO] [jei]: Building runtime took 93.95 ms
+[12:55:42] [main/INFO] [jei]: Starting JEI took 1.105 s
+[12:55:42] [main/INFO] [NotEnoughItems]: Loading NEI.
+[12:55:42] [main/INFO] [NotEnoughItems]: Finished NEI Initialization after 278 ms
+[12:55:42] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
+[12:55:42] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[12:55:42] [main/INFO] [com.mojang.text2speech.NarratorLinux]: Narrator library successfully loaded
+[12:55:44] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[12:56:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[12:56:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[12:56:07] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[12:56:07] [Server thread/INFO] [FML]: Applying holder lookups
+[12:56:07] [Server thread/INFO] [FML]: Holder lookups applied
+[12:56:07] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@3a908548)
+[12:56:07] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[12:56:07] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@3a908548)
+[12:56:07] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@3a908548)
+[12:56:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[12:56:09] [Server thread/INFO] [FML]: Unloading dimension -1
+[12:56:09] [Server thread/INFO] [FML]: Unloading dimension 1
+[12:56:09] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[12:56:10] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[12:56:10] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[12:56:10] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,guideapi@1.12-2.1.7-62,nei@2.4.2,FML@8.0.99.99,forge@14.23.5.2775,slaughtercraft@BetaV0.2.5,codechickenlib@3.2.2.353,mcp@9.42,jei@4.13.1.225
+[12:56:10] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[12:56:10] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[12:56:10] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[12:56:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player505[local:E:e07a95bb] logged in with entity id 143 at (1593.157355643639, 4.0, 1560.3635404898746)
+[12:56:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player505 joined the game
+[12:56:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[12:56:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[12:56:12] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2 advancements
+[12:56:12] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@f58c68d[id=5b0c46c0-894b-30a6-bd31-bf02da63882f,name=Player505,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -160,22 +155,18 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
-[22:58:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player160: Set own game mode to Survival Mode]
-[22:58:03] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[22:58:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player160: Set own game mode to Creative Mode]
-[22:58:06] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[22:58:15] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[22:58:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[22:58:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[22:58:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[22:58:15] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player160 lost connection: Disconnected
-[22:58:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player160 left the game
-[22:58:15] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[22:58:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[22:58:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[22:58:15] [Server thread/INFO] [FML]: Unloading dimension 0
-[22:58:15] [Server thread/INFO] [FML]: Applying holder lookups
-[22:58:15] [Server thread/INFO] [FML]: Holder lookups applied
-[22:58:17] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[22:58:17] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[22:58:17] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[12:56:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[12:56:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[12:56:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player505 lost connection: Disconnected
+[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player505 left the game
+[12:56:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[12:56:25] [Server thread/INFO] [FML]: Unloading dimension 0
+[12:56:25] [Server thread/INFO] [FML]: Applying holder lookups
+[12:56:25] [Server thread/INFO] [FML]: Holder lookups applied
+[12:56:26] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[12:56:26] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[12:56:26] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

@@ -1,20 +1,8 @@
-
-
-
 {
-
-
-
-"variants": {
-
-
-
-      "normal": { "model": "slaughtercraft:slimecarcass" }
-
-
-
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:slimecarcass" },
+        "facing=south": { "model": "slaughtercraft:slimecarcass", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:slimecarcass", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:slimecarcass", "y": 90 }
     }
-
-
-
 }

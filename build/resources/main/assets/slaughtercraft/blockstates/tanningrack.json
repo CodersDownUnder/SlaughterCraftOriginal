@@ -1,20 +1,8 @@
-
-
-
 {
-
-
-
-"variants": {
-
-
-
-      "normal": { "model": "slaughtercraft:tanningrack" }
-
-
-
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:tanningrack" },
+        "facing=south": { "model": "slaughtercraft:tanningrack", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:tanningrack", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:tanningrack", "y": 90 }
     }
-
-
-
 }

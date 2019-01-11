@@ -1,24 +1,8 @@
-
-
-
 {
-
-
-
-    "variants": {  
-
-
-
-        "normal": { "model": "slaughtercraft:slowroaster" }
-
-
-
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:slowroaster" },
+        "facing=south": { "model": "slaughtercraft:slowroaster", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:slowroaster", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:slowroaster", "y": 90 }
     }
-
-
-
 }
-
-
-
-

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:evokercarcass" },
+        "facing=south": { "model": "slaughtercraft:evokercarcass", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:evokercarcass", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:evokercarcass", "y": 90 }
+    }
+}

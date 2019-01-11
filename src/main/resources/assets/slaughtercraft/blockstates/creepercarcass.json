@@ -1,20 +1,8 @@
-
-
-
 {
-
-
-
-"variants": {
-
-
-
-      "normal": { "model": "slaughtercraft:creepercarcass" }
-
-
-
+    "variants": {
+        "facing=north": { "model": "slaughtercraft:creepercarcass" },
+        "facing=south": { "model": "slaughtercraft:creepercarcass", "y": 180 },
+        "facing=west":  { "model": "slaughtercraft:creepercarcass", "y": 270 },
+        "facing=east":  { "model": "slaughtercraft:creepercarcass", "y": 90 }
     }
-
-
-
 }

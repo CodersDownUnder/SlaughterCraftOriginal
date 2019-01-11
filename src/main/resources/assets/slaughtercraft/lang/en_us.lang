@@ -1,6 +1,6 @@
-itemGroup.BMCT=ButcheryMod Blocks
-itemGroup.BMCT2=ButcheryMod Meat
-itemGroup.BMCT3=ButcheryMod Items
+itemGroup.BMCT=SlaughterCraft Blocks
+itemGroup.BMCT2=SlaughterCraft Foods
+itemGroup.BMCT3=SlaughterCraft Items
 
 
 tile.butcherstable.name=Butchers Table
@@ -14,7 +14,7 @@ tile.coalironmix.name=SteelOre
 tile.roastmutton.name=Roast Mutton
 tile.roastpork.name=Roast Pork
 tile.roastchicken.name=Roast Chicken
-tile.roastbeef.name=Roast Beef
+tile.roastbeef.name=Roasting Spit
 tile.uncookedroastmutton.name=Uncooked Roast Mutton
 tile.uncookedroastpork.name=Uncooked Roast Pork
 tile.uncookedroastchicken.name=Uncooked Roast Chicken
@@ -31,6 +31,7 @@ tile.slimecarcass.name=Slime Carcass
 tile.slimeskull.name=Slime Skull
 tile.squidcarcass.name=Squid Carcass
 tile.creepercarcass.name=Creeper Carcass
+tile.stewpot.name=Stew Pot
 
 
 item.skinningknife.name=Skinning Knife
@@ -100,8 +101,25 @@ item.slimehelmet.name=Slime Helmet
 item.slimechestplate.name=Slime Chestplate
 item.slimeboots.name=Slime Boots
 item.slimeleggings.name=Slime Leggings
-
 item.squidhelmet.name=Squid Helmet
 item.squidchestplate.name=Squid Chestplate
 item.squidboots.name=Squid Boots
 item.squidleggings.name=Squid Leggings
+
+
+item.chickenbroth.name=Chicken Broth
+item.beefbroth.name=Beef Broth
+item.porkbroth.name=Pork Broth
+item.lambbroth.name=Lamb Broth
+item.fishbroth.name=Fish Broth
+item.chickensoup.name=Chicken Soup
+item.beefsoup.name=Beef Soup
+item.porksoup.name=Pork Soup
+item.lambsoup.name=Lamb Soup
+item.fishsoup.name=Fish Soup
+item.chickenstew.name=Chicken Stew
+item.beefstew.name=Beef Stew
+item.porkstew.name=Pork Stew
+item.lambstew.name=Lamb Stew
+item.fishstew.name=Fish Stew
+

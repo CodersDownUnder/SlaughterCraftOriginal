@@ -45,7 +45,7 @@ public class ConfigHandler {
 		config.addCustomCategoryComment(category, "Overriding Mob Drops");
 	    overridemobdrops = config.getBoolean("Override MobDrops", category, true, "Carcasses will drop the mobs default drops on destruction");
 	    adddefaultdrops = config.getBoolean("Default MobDrops", category, false, "If true default drops will be dropped when you mine carcass as well as modded drops");
-	    dropdefaultandcarcassondeath = config.getBoolean("Drop Default And Carcass", category, false, "If true mobs will drop both there default drops aswell as their carcasses");
+	    dropdefaultandcarcassondeath = config.getBoolean("Drop Default And Carcass", category, false, "If true mobs will drop both there default drops aswell as their carcasses on there death");
 	    
 	    category = "Buildings";
 	    config.addCustomCategoryComment(category, "Buildings");

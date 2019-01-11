@@ -59,3 +59,9 @@ processResources {
         exclude 'mcmod.info'
     }
 }
+
+
+
+sourceSets{
+    sourceSets -> main
+}

@@ -40,14 +40,24 @@ public class ArmourBase extends ItemArmor {
 			player.inventory.armorItemInSlot(3) != null)
 		{
 			if(player.inventory.armorItemInSlot(0).getItem() == ArmourInit.slimeboots &&
-				player.inventory.armorItemInSlot(1).getItem() == ArmourInit.slimeleggings && 
-				player.inventory.armorItemInSlot(2).getItem() == ArmourInit.slimechestplate &&
-				player.inventory.armorItemInSlot(3).getItem() == ArmourInit.slimehelmet)
+			   player.inventory.armorItemInSlot(1).getItem() == ArmourInit.slimeleggings && 
+			   player.inventory.armorItemInSlot(2).getItem() == ArmourInit.slimechestplate &&
+			   player.inventory.armorItemInSlot(3).getItem() == ArmourInit.slimehelmet)
 			{
 				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 5, 3, false, false));
 				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 5, 1, false, false));
+		  /*	}
 				
-			}
+				if(player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidboots &&
+				   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidleggings &&
+				   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidchestplate &&
+				   player.inventory.armorItemInSlot(0).getItem() == ArmourInit.squidhelmet) 
+				{
+					
+					player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 5, 3, false, false));
+					
+				 }*/
+				}
 		}
 	}
 	
