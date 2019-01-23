@@ -1,139 +1,253 @@
-[12:55:23] [main/INFO] [GradleStart]: Extra: []
-[12:55:23] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/tom/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[12:55:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:55:23] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:55:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[12:55:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:55:23] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2775 for Minecraft 1.12.2 loading
-[12:55:23] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-43-generic, installed at /usr/lib/jvm/java-8-oracle/jre
-[12:55:23] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[12:55:23] [main/ERROR] [FML]: Full: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
-[12:55:23] [main/ERROR] [FML]: Trimmed: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[12:55:23] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[12:55:23] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[12:55:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[12:55:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[12:55:24] [main/INFO] [FML]: Searching /home/tom/Desktop/modding/SlaughterCraft/SlaughterCraft/run/./mods for mods
-[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[12:55:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[12:55:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[12:55:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:55:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[12:55:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:55:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:55:25] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[12:55:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:55:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[12:55:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[12:55:26] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[12:55:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[12:55:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[12:55:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[12:55:26] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player505
-[12:55:30] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[12:55:30] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[12:55:30] [main/INFO] [FML]: -- System Details --
+[17:26:40] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/tom/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:26:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:26:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:26:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:26:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:26:40] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2807 for Minecraft 1.12.2 loading
+[17:26:40] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-43-generic, installed at /usr/lib/jvm/java-8-oracle/jre
+[17:26:40] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[17:26:40] [main/ERROR] [FML]: Full: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[17:26:40] [main/ERROR] [FML]: Trimmed: /home/tom/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[17:26:41] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:26:41] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[17:26:41] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[17:26:41] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[17:26:41] [main/INFO] [FML]: Searching /home/tom/Desktop/modding/SlaughterCraft/SlaughterCraft/run/./mods for mods
+[17:26:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:26:41] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[17:26:41] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:26:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:26:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:26:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:42] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:26:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:26:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:26:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:26:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:26:43] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:26:43] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player647
+[17:26:46] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:26:46] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[17:26:47] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Linux (amd64) version 4.15.0-43-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 925711208 bytes (882 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	Memory: 892667704 bytes (851 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 390.77' Renderer: 'GeForce GT 730/PCIe/SSE2'
-[12:55:30] [main/INFO] [FML]: MinecraftForge v14.23.5.2775 Initialized
-[12:55:30] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[12:55:31] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[12:55:31] [main/INFO] [FML]: Searching /home/tom/Desktop/modding/SlaughterCraft/SlaughterCraft/run/./mods for mods
-[12:55:32] [main/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.2.353
-[12:55:32] [main/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
-[12:55:32] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi, codechickenlib, jei, nei] at CLIENT
-[12:55:32] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi, codechickenlib, jei, nei] at SERVER
-[12:55:33] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 116398425 nanos
-[12:55:33] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SlaughterCraft, FMLFileResourcePack:Guide-API, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Not Enough Items
-[12:55:34] [main/INFO] [FML]: Processing ObjectHolder annotations
-[12:55:34] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[12:55:34] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[12:55:34] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[12:55:34] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[12:55:34] [main/INFO] [STDOUT]: [trhod177.bm.proxy.ClientProxy:preInit:23]: this is loaded
-[12:55:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[12:55:34] [main/INFO] [FML]: Applying holder lookups
-[12:55:34] [main/INFO] [FML]: Holder lookups applied
-[12:55:35] [main/INFO] [FML]: Applying holder lookups
-[12:55:35] [main/INFO] [FML]: Holder lookups applied
-[12:55:35] [main/INFO] [FML]: Applying holder lookups
-[12:55:35] [main/INFO] [FML]: Holder lookups applied
-[12:55:35] [main/INFO] [FML]: Applying holder lookups
-[12:55:35] [main/INFO] [FML]: Holder lookups applied
-[12:55:35] [main/INFO] [FML]: Injecting itemstacks
-[12:55:35] [main/INFO] [FML]: Itemstack injection complete
-[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2806
-[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
-[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
-[12:55:35] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
-[12:55:36] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[12:55:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[12:55:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:55:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[12:55:36] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[12:55:36] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Found status: BETA Target: null
-[12:55:38] [main/INFO] [FML]: Max texture size: 16384
-[12:55:39] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
-[12:55:40] [main/INFO] [FML]: Applying holder lookups
-[12:55:40] [main/INFO] [FML]: Holder lookups applied
-[12:55:40] [main/INFO] [FML]: Injecting itemstacks
-[12:55:40] [main/INFO] [FML]: Itemstack injection complete
-[12:55:40] [main/INFO] [jei]: Starting JEI...
-[12:55:41] [main/INFO] [jei]: Registering recipe categories...
-[12:55:41] [main/INFO] [jei]: Registering recipe categories took 30.51 ms
-[12:55:41] [main/INFO] [jei]: Registering mod plugins...
-[12:55:41] [main/INFO] [jei]: Registering mod plugins took 228.2 ms
-[12:55:41] [main/INFO] [jei]: Building recipe registry...
-[12:55:41] [main/INFO] [jei]: Building recipe registry took 112.1 ms
-[12:55:41] [main/INFO] [jei]: Building ingredient list...
-[12:55:41] [main/INFO] [jei]: Building ingredient list took 40.65 ms
-[12:55:41] [main/INFO] [jei]: Building ingredient filter...
-[12:55:41] [main/INFO] [jei]: Building ingredient filter took 399.2 ms
-[12:55:41] [main/INFO] [jei]: Building runtime...
-[12:55:42] [main/INFO] [jei]: Building runtime took 93.95 ms
-[12:55:42] [main/INFO] [jei]: Starting JEI took 1.105 s
-[12:55:42] [main/INFO] [NotEnoughItems]: Loading NEI.
-[12:55:42] [main/INFO] [NotEnoughItems]: Finished NEI Initialization after 278 ms
-[12:55:42] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
-[12:55:42] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[12:55:42] [main/INFO] [com.mojang.text2speech.NarratorLinux]: Narrator library successfully loaded
-[12:55:44] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[12:56:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[12:56:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[12:56:07] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[12:56:07] [Server thread/INFO] [FML]: Applying holder lookups
-[12:56:07] [Server thread/INFO] [FML]: Holder lookups applied
-[12:56:07] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@3a908548)
-[12:56:07] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[12:56:07] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@3a908548)
-[12:56:07] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@3a908548)
-[12:56:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[12:56:09] [Server thread/INFO] [FML]: Unloading dimension -1
-[12:56:09] [Server thread/INFO] [FML]: Unloading dimension 1
-[12:56:09] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[12:56:10] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[12:56:10] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[12:56:10] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,guideapi@1.12-2.1.7-62,nei@2.4.2,FML@8.0.99.99,forge@14.23.5.2775,slaughtercraft@BetaV0.2.5,codechickenlib@3.2.2.353,mcp@9.42,jei@4.13.1.225
-[12:56:10] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
-[12:56:10] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[12:56:10] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[12:56:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player505[local:E:e07a95bb] logged in with entity id 143 at (1593.157355643639, 4.0, 1560.3635404898746)
-[12:56:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player505 joined the game
-[12:56:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[12:56:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[12:56:12] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2 advancements
-[12:56:12] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@f58c68d[id=5b0c46c0-894b-30a6-bd31-bf02da63882f,name=Player505,properties={},legacy=false]
+[17:26:47] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2807 Initialized
+[17:26:47] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:26:48] [Client thread/INFO] [FML]: Replaced 1036 ore ingredients
+[17:26:48] [Client thread/INFO] [FML]: Searching /home/tom/Desktop/modding/SlaughterCraft/SlaughterCraft/run/./mods for mods
+[17:26:49] [Client thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[17:26:49] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi] at CLIENT
+[17:26:49] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, slaughtercraft, guideapi] at SERVER
+[17:26:50] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 176618850 nanos
+[17:26:50] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SlaughterCraft, FMLFileResourcePack:Guide-API
+[17:26:50] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:26:50] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[17:26:50] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:26:50] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:26:50] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:26:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:26:50] [Client thread/INFO] [STDOUT]: [trhod177.bm.proxy.ClientProxy:preInit:23]: this is loaded
+[17:26:50] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:50] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:50] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:50] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:50] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:50] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:50] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:50] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:50] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:26:50] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:26:51] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[17:26:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2808
+[17:26:52] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[17:26:52] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:26:52] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[17:26:52] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[17:26:54] [Client thread/INFO] [FML]: Max texture size: 16384
+[17:26:54] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[17:26:55] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:55] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:55] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:26:55] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:26:56] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[17:26:56] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:26:56] [Client thread/INFO] [com.mojang.text2speech.NarratorLinux]: Narrator library successfully loaded
+[17:26:58] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[17:27:10] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[17:27:10] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[17:27:11] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_brick_cracked
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:clear_glass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_brick_triangle
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_grass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_vine_purple
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_slab2
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:mudbrick_stairs
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_leaves
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_nickel
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermaldynamics:duct_64
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_tank
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:tank
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_road
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:glow
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_brick
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_redstone
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:wood_rail_trapdoor
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:toolforge
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_vine_purple_end
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_clay
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:deco_ground
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_creeper
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:blueslime
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_cobble
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_electrum
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_copper
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_petrotheum
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_brick_triangle
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:strongbox
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_knightslime
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:cell
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:dynamo
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:ore
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world slaughtercraft:stewpot
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_tile
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_slab2
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_ender
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_rough
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_silver
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:dried_brick_stairs
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_brick_fancy
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_aluminum
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_brick_small
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_glass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:dried_clay_stairs
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:machine
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_congealed
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_smooth
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:glass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:storage_alloy
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:blood
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_mana
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_lead
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_furnace_controller
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_vine_blue_mid
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_ardite
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_channel
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_slab
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:rack
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:purpleslime
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_crude_oil
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:tinker_tank_controller
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:tooltables
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:milk
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:firewood_slab
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:storage
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_creeper
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:punji
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_glass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_vine_purple_mid
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_dirt
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:apparatus
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:smeltery_io
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:stone_torch
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_steel
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:clear_stained_glass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:soil
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_tin
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_brick_small
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:faucet
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_alubrass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:firewood
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:stone_ladder
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_gold
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:cache
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:ore_fluid
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:rockwool
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermaldynamics:duct_0
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:wood_rail
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_sapling
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_brass
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalexpansion:device
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_brick_square
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_cryotheum
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_paver
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:glass_alloy
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:ore
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_manyullyn
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:smeltery_controller
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:metal
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalcultivation:soil
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_obsidian
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_slab
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_brick_cracked
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_vine_blue_end
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_brick_fancy
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermaldynamics:duct_16
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:lavawood_stairs
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_brick_square
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:dried_clay
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:storage_resource
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_iron
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:brownstone_stairs_brick
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_road
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_vine_blue
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:deco_ground_slab
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime_grass_tall
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_aerotheum
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:dried_clay_slab
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:firewood_stairs
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_cobalt
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_dirt
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_emerald
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:slime
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_paver
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_pyrotheum
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:casting
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_pigiron
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermaldynamics:duct_48
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_bronze
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermalfoundation:fluid_glowstone
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_stone
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:seared_stairs_tile
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world thermaldynamics:duct_32
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:channel
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_zinc
+[17:27:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tconstruct:molten_stone
+[17:27:11] [Server thread/INFO] [FML]: Applying holder lookups
+[17:27:11] [Server thread/INFO] [FML]: Holder lookups applied
+[17:27:11] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@483434c9)
+[17:27:11] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[17:27:11] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@483434c9)
+[17:27:11] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@483434c9)
+[17:27:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[17:27:13] [Server thread/INFO] [FML]: Unloading dimension -1
+[17:27:13] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:27:13] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[17:27:15] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[17:27:15] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[17:27:15] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,guideapi@1.12-2.1.7-62,FML@8.0.99.99,forge@14.23.5.2807,slaughtercraft@BetaV0.2.5,mcp@9.42
+[17:27:15] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[17:27:15] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:27:15] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player647[local:E:886b050e] logged in with entity id 123 at (1566.2109237866284, 5.0, 1525.4138109069877)
+[17:27:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player647 joined the game
+[17:27:16] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:27:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:27:16] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@26f93b64[id=3dc994a6-e4ba-3e8a-9bf9-4271ccca9810,name=Player647,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -148,25 +262,39 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3181) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3182) [Minecraft.class:?]
 	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_191]
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_191]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
-[12:56:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[12:56:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[12:56:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player505 lost connection: Disconnected
-[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player505 left the game
-[12:56:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[12:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[12:56:25] [Server thread/INFO] [FML]: Unloading dimension 0
-[12:56:25] [Server thread/INFO] [FML]: Applying holder lookups
-[12:56:25] [Server thread/INFO] [FML]: Holder lookups applied
-[12:56:26] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[12:56:26] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[12:56:26] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[17:27:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:27:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:27:28] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing difficulty to PEACEFUL, from EASY
+[17:27:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player647: Set own game mode to Creative Mode]
+[17:27:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
+[17:28:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player647: Set the time to 0]
+[17:28:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set the time to 0
+[17:28:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player647: Set own game mode to Survival Mode]
+[17:28:06] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
+[17:28:13] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:28:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:28:25] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:28:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:28:30] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2 advancements
+[17:28:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player647 has made the advancement [Acquire Hardware]
+[17:28:30] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player647 has made the advancement [Acquire Hardware]
+[17:28:30] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 31 advancements
+[17:28:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:28:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:28:52] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[17:28:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[17:28:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[17:28:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[17:28:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:28:53] [Server thread/INFO] [FML]: Unloading dimension 0
+[17:28:53] [Server thread/INFO] [FML]: Applying holder lookups
+[17:28:53] [Server thread/INFO] [FML]: Holder lookups applied
+[17:28:53] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[17:28:53] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

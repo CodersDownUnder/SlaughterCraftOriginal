@@ -13,7 +13,8 @@ public class CustomBlock extends Block {
 
 
 	protected String name;
-
+    
+	
 	public CustomBlock(Material material, String name) {
 		
 		super(material.ROCK);

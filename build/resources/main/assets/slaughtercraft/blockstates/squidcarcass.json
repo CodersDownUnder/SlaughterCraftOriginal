@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "slaughtercraft:squidcarcass" },
-        "facing=south": { "model": "slaughtercraft:squidcarcass", "y": 180 },
-        "facing=west":  { "model": "slaughtercraft:squidcarcass", "y": 270 },
-        "facing=east":  { "model": "slaughtercraft:squidcarcass", "y": 90 }
-    }
-}

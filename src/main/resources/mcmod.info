@@ -1,16 +1,12 @@
-[
-{
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+[{
+  "modid": "slaughtercraft",
+  "name": "SlaughterCraft",
+  "description": "Adds lots of slaughtery crafty thingys.",
+  "version": "BetaV0.2.6",
+  "mcversion": "1.12.2",
   "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
-]
+  "url": "",
+  "updateJSON": "",
+  "authorList": ["Trhod177"],
+  "credits": ""
+}]

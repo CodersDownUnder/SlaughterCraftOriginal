@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "slaughtercraft:slimeskull" },
-        "facing=south": { "model": "slaughtercraft:slimeskull", "y": 180 },
-        "facing=west":  { "model": "slaughtercraft:slimeskull", "y": 270 },
-        "facing=east":  { "model": "slaughtercraft:slimeskull", "y": 90 }
-    }
-}

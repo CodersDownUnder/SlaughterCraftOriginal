@@ -10,7 +10,7 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
 
 import net.minecraftforge.fml.common.IWorldGenerator;
-
+import trhod177.bm.handlers.ConfigHandler;
 import trhod177.bm.init.BlockInit;
 
 public class WorldGenCustomOres implements IWorldGenerator {
@@ -24,7 +24,7 @@ public class WorldGenCustomOres implements IWorldGenerator {
                          IChunkProvider chunkProvider) {
         switch (world.provider.getDimension()) {
         case 0 :
-            runGenerator(coalironmix, world, random, chunkX, chunkZ, 20, 0, 100);
+            runGenerator(coalironmix, world, random, chunkX, chunkZ, ConfigHandler.steelorechance, ConfigHandler.steeloreminheight, ConfigHandler.steeloremaxheight);
 
             break;
         }

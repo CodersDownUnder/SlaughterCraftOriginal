@@ -21,7 +21,7 @@ compileJava {
 }
 
 minecraft {
-    version = "1.12.2-14.23.5.2775"
+    version = "1.12.2-14.23.5.2807"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
@@ -40,7 +40,6 @@ repositories {
 dependencies {
   deobfCompile "info.amerifrance.guideapi:Guide-API:1.12-2.1.7-62"
 }
-
 processResources {
     // this will ensure that this task is redone when the versions change.
     inputs.property "version", project.version
@@ -58,10 +57,4 @@ processResources {
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
-}
-
-
-
-sourceSets{
-    sourceSets -> main
 }

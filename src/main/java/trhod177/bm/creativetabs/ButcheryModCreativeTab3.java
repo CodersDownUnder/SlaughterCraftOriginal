@@ -18,7 +18,7 @@ public class ButcheryModCreativeTab3 extends CreativeTabs {
 	
 	
 	public ItemStack getTabIconItem() {
-		return new ItemStack(ItemInit.deboningknife);
+		return new ItemStack(ItemInit.butcherknife);
 		
 	}
 }

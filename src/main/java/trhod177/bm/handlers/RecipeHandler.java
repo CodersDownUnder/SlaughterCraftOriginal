@@ -33,11 +33,13 @@ public class RecipeHandler {
      CraftingHandler.addShapedOreRecipe(new ItemStack(BlockInit.uncookedroastmutton), new Object[] {"SSS","SIS","SSS", 'S', "listAllmuttonraw", 'I', Items.STICK});
      CraftingHandler.addShapedOreRecipe(new ItemStack(BlockInit.uncookedroastpork), new Object[] {"SSS","SIS","SSS", 'S', "listAllporkraw", 'I', Items.STICK});     
      CraftingHandler.addShapedOreRecipe(new ItemStack(ItemInit.butcherknife), new Object[] {"SXX","XSX","XXT", 'S', "ingotSteel", 'T', Items.STICK, 'X', Ingredient.EMPTY});
+     CraftingHandler.addShapedOreRecipe(new ItemStack(ItemInit.flintbutcherknife), new Object[] {"SXX","XSX","XXT", 'S', Items.FLINT, 'T', Items.STICK, 'X', Ingredient.EMPTY});
+     CraftingHandler.addShapedOreRecipe(new ItemStack(ItemInit.stonebutcherknife), new Object[] {"SXX","XSX","XXT", 'S', Blocks.COBBLESTONE, 'T', Items.STICK, 'X', Ingredient.EMPTY});
      CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimeboots), new Object[] {"XXX","SXS","SXS", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
      CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimehelmet), new Object[] {"SSS","SXS","XXX", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
      CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimechestplate), new Object[] {"SXS","SSS","SSS", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
      CraftingHandler.addShapedRecipe(new ItemStack(ArmourInit.slimeleggings), new Object[] {"SSS","SXS","SXS", 'S', ItemInit.slimeskinleather, 'X', Ingredient.EMPTY});
-    
+     
      
 	}
 
@@ -50,7 +52,8 @@ public class RecipeHandler {
 		CraftingHandler.addShapelessRecipe(new ItemStack(ItemInit.roastmuttonslice, 12), new Object[] {new ItemStack(ItemInit.butcherknife, 12, OreDictionary.WILDCARD_VALUE), BlockInit.roastmutton});
 		CraftingHandler.addShapelessRecipe(new ItemStack(ItemInit.slimeskinleather, 4), new Object[] {new ItemStack(ItemInit.butcherknife, 12, OreDictionary.WILDCARD_VALUE), BlockInit.slimeskull});
 		CraftingHandler.addShapelessRecipe(new ItemStack(Items.DYE, 4, 15), new Object[] {ItemInit.chickenneck});
-	    
+		
+	
 		
 		CraftingHandler.addShapelessOreRecipe(new ItemStack(ItemInit.beefbroth, 1), new Object[] {Items.BOWL, "listAllbeefcooked", "listAllbeefcooked", "listAllbeefcooked"});
 		CraftingHandler.addShapelessOreRecipe(new ItemStack(ItemInit.lambbroth, 1), new Object[] {Items.BOWL, "listAllmuttoncooked", "listAllmuttoncooked", "listAllmuttoncooked"});

@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.block.material.Material;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.registries.IForgeRegistry;
 import trhod177.bm.SlaughterCraft;
 import trhod177.bm.items.AnimalParts;
@@ -13,9 +15,6 @@ import trhod177.bm.items.BmItemFood;
 import trhod177.bm.items.BmItemFood2;
 import trhod177.bm.items.ItemAnimalSkin;
 import trhod177.bm.items.ItemButcherKnife;
-import trhod177.bm.items.ItemCleaver;
-import trhod177.bm.items.ItemDeboningKnife;
-import trhod177.bm.items.ItemSkinningKnife;
 import trhod177.bm.items.ItemSteel;
 import trhod177.bm.items.ItemSteelIngot;
 import trhod177.bm.items.ModItem;
@@ -26,15 +25,14 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ItemInit {
 	
 	
-	public static final ToolMaterial BMSTEEL = EnumHelper.addToolMaterial("BMSTEEL", 3, 400, 13f, 4.0f, 30);
-	
+	public static final ToolMaterial BMSTEEL = EnumHelper.addToolMaterial("BMSTEEL", 3, 400, 13F, 4.0F, 30).setRepairItem(new ItemStack(ItemInit.steel));
+	public static final ToolMaterial BMFlint = EnumHelper.addToolMaterial("BMFlint", 2, 150, 4.0F, 2.0F, 5).setRepairItem(new ItemStack(Items.FLINT));
 	
 	//knives and misc
-	public static ItemSkinningKnife skinningknife = new ItemSkinningKnife("skinningknife").setCreativeTab(SlaughterCraft.BMCT3);
-	public static ItemCleaver cleaver = new ItemCleaver("cleaver").setCreativeTab(SlaughterCraft.BMCT3);
     public static ItemButcherKnife butcherknife = new ItemButcherKnife("butcherknife", BMSTEEL).setCreativeTab(SlaughterCraft.BMCT3);
+    public static ItemButcherKnife stonebutcherknife = new ItemButcherKnife("stonebutcherknife", ToolMaterial.IRON).setCreativeTab(SlaughterCraft.BMCT3);
+    public static ItemButcherKnife flintbutcherknife = new ItemButcherKnife("flintbutcherknife", BMFlint).setCreativeTab(SlaughterCraft.BMCT3);
 	public static ItemSteel steel = new ItemSteel("steel").setCreativeTab(SlaughterCraft.BMCT3);
-	public static ItemDeboningKnife deboningknife = new ItemDeboningKnife("deboningknife").setCreativeTab(SlaughterCraft.BMCT3);
 	public static ItemSteelIngot steelingot = new ItemSteelIngot("steelingot").setCreativeTab(SlaughterCraft.BMCT3);
 	public static ModItem steelrod = new ModItem("steelrod").setCreativeTab(SlaughterCraft.BMCT3);
 	public static ModItem stonepole = new ModItem("stonepole").setCreativeTab(SlaughterCraft.BMCT3);
@@ -115,17 +113,15 @@ public class ItemInit {
 	public static BmItemFood2 beefstew = new BmItemFood2("beefstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
 	public static BmItemFood2 lambstew = new BmItemFood2("lambstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
 	public static BmItemFood2 fishstew = new BmItemFood2("fishstew", 8, true).setCreativeTab(SlaughterCraft.BMCT2);
+
 	
 	
 	
 	public static void register(IForgeRegistry<Item> registry) {
 	  registry.registerAll(
-          //itemname
-			skinningknife,
-			cleaver,
+          
 			butcherknife,
 			steel,
-	        deboningknife,
 	        steelingot,
 	        roastbeefslice,
 	        roastporkslice,
@@ -193,7 +189,9 @@ public class ItemInit {
 			porkstew,
 			beefstew,
 			lambstew,
-			fishstew
+			fishstew,
+			stonebutcherknife,
+			flintbutcherknife
 	          
 			  );
 	  
@@ -201,12 +199,8 @@ public class ItemInit {
 	}
 	
 	public static void registerModels() {
-	    //itemname.registerItemModel();
-        skinningknife.registerItemModel();
-        cleaver.registerItemModel();
         butcherknife.registerItemModel();
         steel.registerItemModel();
-        deboningknife.registerItemModel();
         steelingot.registerItemModel();
         roastbeefslice.registerItemModel();
         roastporkslice.registerItemModel();
@@ -275,6 +269,8 @@ public class ItemInit {
 		beefstew.registerItemModel();
 		lambstew.registerItemModel();
 		fishstew.registerItemModel();
+		stonebutcherknife.registerItemModel();
+		flintbutcherknife.registerItemModel();
 		
 	}
 	

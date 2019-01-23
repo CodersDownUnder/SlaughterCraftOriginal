@@ -1,8 +1,12 @@
 {
     "variants": {
-        "facing=north": { "model": "slaughtercraft:stewpot" },
-        "facing=south": { "model": "slaughtercraft:stewpot", "y": 180 },
-        "facing=west":  { "model": "slaughtercraft:stewpot", "y": 270 },
-        "facing=east":  { "model": "slaughtercraft:stewpot", "y": 90 }
+        "burning=false,facing=north": { "model": "slaughtercraft:stewpot" },
+        "burning=false,facing=south": { "model": "slaughtercraft:stewpot", "y": 180 },
+        "burning=false,facing=west":  { "model": "slaughtercraft:stewpot", "y": 270 },
+        "burning=false,facing=east":  { "model": "slaughtercraft:stewpot", "y": 90 },
+        "burning=true,facing=north": { "model": "slaughtercraft:stewpotlit" },
+        "burning=true,facing=south": { "model": "slaughtercraft:stewpotlit", "y": 180 },
+        "burning=true,facing=west":  { "model": "slaughtercraft:stewpotlit", "y": 270 },
+        "burning=true,facing=east":  { "model": "slaughtercraft:stewpotlit", "y": 90 }
     }
 }

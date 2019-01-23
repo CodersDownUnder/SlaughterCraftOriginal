@@ -23,6 +23,8 @@ tile.zombiecarcass.name=Zombie Carcass
 tile.zombievillagercarcass.name=Zombie Villager Carcass
 tile.zombiepigmancarcass.name=Zombie Pigman Carcass
 tile.villagercarcass.name=Villager Carcass
+tile.vindicatorcarcass.name=Vindicator Carcass
+tile.evokercarcass.name=Evoker Carcass
 tile.horsecarcass.name=Horse Carcass
 tile.mulecarcass.name=Mule Carcass
 tile.donkeycarcass.name=Donkey Carcass
@@ -34,11 +36,10 @@ tile.creepercarcass.name=Creeper Carcass
 tile.stewpot.name=Stew Pot
 
 
-item.skinningknife.name=Skinning Knife
-item.cleaver.name=Cleaver
 item.butcherknife.name=Butchers Knife
+item.stonebutcherknife.name=Stone Butchers Knife
+item.flintbutcherknife.name=Flint Butchers Knife
 item.steel.name=Steel
-item.deboningknife.name=Deboning Knife
 item.steelingot.name=Steel Ingot
 item.roastbeefslice.name=Slice Of Roast Beef
 item.roastporkslice.name=Slice Of Roast Pork
@@ -122,4 +123,6 @@ item.beefstew.name=Beef Stew
 item.porkstew.name=Pork Stew
 item.lambstew.name=Lamb Stew
 item.fishstew.name=Fish Stew
+
+
 

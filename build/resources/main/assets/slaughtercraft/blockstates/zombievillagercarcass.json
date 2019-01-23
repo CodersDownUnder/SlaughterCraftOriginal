@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "slaughtercraft:zombievillagercarcass" },
-        "facing=south": { "model": "slaughtercraft:zombievillagercarcass", "y": 180 },
-        "facing=west":  { "model": "slaughtercraft:zombievillagercarcass", "y": 270 },
-        "facing=east":  { "model": "slaughtercraft:zombievillagercarcass", "y": 90 }
-    }
-}
