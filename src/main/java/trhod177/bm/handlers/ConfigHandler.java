@@ -12,6 +12,8 @@ public class ConfigHandler {
 	
 	public static Configuration config;
 	
+	
+	
 
 	public static boolean overridemobdrops = true;
 	public static boolean adddefaultdrops;
@@ -68,6 +70,7 @@ public class ConfigHandler {
 	    steeloreminheight = config.getInt("SteelOreMinHeight", category, 0, 0, 256, "Set min height for steel ore");
 	    steeloremaxheight = config.getInt("SteelOreMaxHeight", category, 100, 0, 256, "Set max height for steel ore");
 	    
+	  
 	    
 	   config.save();
 	}

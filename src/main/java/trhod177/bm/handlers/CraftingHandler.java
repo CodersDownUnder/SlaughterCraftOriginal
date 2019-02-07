@@ -21,6 +21,7 @@ import net.minecraftforge.registries.GameData;
 public class CraftingHandler {
 
 	
+    
 	public static void addShapedOreRecipe(ItemStack output, Object... params) {
 		ResourceLocation location = getNameForRecipe(output);
 		ShapedOreRecipe recipe = new ShapedOreRecipe(location, output, params);

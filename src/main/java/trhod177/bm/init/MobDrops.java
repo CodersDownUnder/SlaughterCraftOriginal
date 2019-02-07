@@ -48,7 +48,7 @@ public class MobDrops
     @SubscribeEvent
     public void onEntityDrop(LivingDropsEvent event)
     {
-        
+       
         
         if (ConfigHandler.overridemobdrops == true) {
             if (event.getEntityLiving() instanceof EntitySheep) {

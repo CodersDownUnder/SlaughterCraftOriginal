@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"28": "slaughtercraft:blocks/chickencarcass/chicken",
-        "particle": "slaughtercraft:blocks/sheepcarcass/sheepheadback"
+        "particle": "slaughtercraft:blocks/chickencarcass/chicken"
 	},
 	"elements": [
 		{

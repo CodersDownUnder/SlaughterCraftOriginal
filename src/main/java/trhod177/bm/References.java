@@ -7,7 +7,7 @@ public class References {
     public static final String MODID       = "slaughtercraft";
     public static final String NAME        = "SlaughterCraft";
     public static final String MCVERSION   = "1.12.2";
-    public static final String VERSION     = "BetaV0.2.6";
+    public static final String VERSION     = "0.2.6";
     public static final String VERSIONTYPE = "Beta";
 
     

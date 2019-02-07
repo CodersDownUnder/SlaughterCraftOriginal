@@ -2,15 +2,32 @@ package trhod177.bm.handlers;
 
 import java.util.Random;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemMonsterPlacer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.crafting.RecipeBookCloning;
+import net.minecraft.item.crafting.RecipeFireworks;
+import net.minecraft.item.crafting.RecipeRepairItem;
+import net.minecraft.item.crafting.RecipeTippedArrow;
+import net.minecraft.item.crafting.RecipesArmorDyes;
+import net.minecraft.item.crafting.RecipesBanners;
+import net.minecraft.item.crafting.RecipesMapCloning;
+import net.minecraft.item.crafting.RecipesMapExtending;
+import net.minecraft.item.crafting.ShieldRecipes;
+import net.minecraft.item.crafting.ShulkerBoxRecipes;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.registry.RegistryNamespaced;
+import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -22,9 +39,46 @@ import trhod177.bm.init.ItemInit;
 
 public class RecipeHandler {
 
-	
-	
-	
+    /*
+    if (invCraft.getStackInSlot(0).getItem() == AlloycraftItems.alloy) {
+        if (invCraft.getStackInSlot(1).getItem() == AlloycraftItems.alloy) {
+            if (invCraft.getStackInSlot(2).getItem() == AlloycraftItems.alloy) {
+                if (invCraft.getStackInSlot(3).getItem() == AlloycraftItems.alloy) {
+                    if (invCraft.getStackInSlot(5).getItem() == AlloycraftItems.alloy) {
+                        ItemStack alloy1 = invCraft.getStackInSlot(0);
+                        ItemStack alloy2 = invCraft.getStackInSlot(1);
+                        ItemStack alloy3 = invCraft.getStackInSlot(2);
+                        ItemStack alloy4 = invCraft.getStackInSlot(3);
+                        ItemStack alloy5 = invCraft.getStackInSlot(5);
+                        int prop1 = (int) Math.sqrt(alloy1.getTagCompound().getInteger("Strength")
+                                + alloy2.getTagCompound().getInteger("Strength")
+                                + alloy3.getTagCompound().getInteger("Strength")
+                                + alloy4.getTagCompound().getInteger("Strength")
+                                + alloy5.getTagCompound().getInteger("Strength"));
+                        int prop2 = (int) Math.sqrt(alloy1.getTagCompound().getInteger("Durability")
+                                + alloy2.getTagCompound().getInteger("Durability")
+                                + alloy3.getTagCompound().getInteger("Durability")
+                                + alloy4.getTagCompound().getInteger("Durability")
+                                + alloy5.getTagCompound().getInteger("Durability"));
+                        int prop3 = (int) Math.sqrt(alloy1.getTagCompound().getInteger("Enchantability")
+                                + alloy2.getTagCompound().getInteger("Enchantability")
+                                + alloy3.getTagCompound().getInteger("Enchantability")
+                                + alloy4.getTagCompound().getInteger("Enchantability")
+                                + alloy5.getTagCompound().getInteger("Enchantability"));
+                        result = new ItemStack(AlloycraftItems.alloyhelmet, 1);
+                        ((ItemArmor) result.getItem()).setColor(result, 25555555);    
+                        result.setTagCompound(new NBTTagCompound());
+                        result.getTagCompound().setInteger("Strength", prop1);
+                        result.getTagCompound().setInteger("Durability", prop2);
+                        result.getTagCompound().setInteger("Enchantability", prop3);
+                        ((ItemArmor) result.getItem()).setColor(result, new Color(result.getTagCompound().getInteger("Strength"), result.getTagCompound().getInteger("Durability"), result.getTagCompound().getInteger("Enchantability")).getRGB());    
+                        return result;
+                    }
+                }
+            }
+        }
+    }
+	*/
 	
 	public static void registerShapedRecipes() {
 		

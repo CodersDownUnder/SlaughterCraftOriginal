@@ -5,12 +5,21 @@ import java.io.File;
 import org.lwjgl.opengl.GL11;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.renderer.color.BlockColors;
+import net.minecraft.client.renderer.color.IBlockColor;
+import net.minecraft.client.renderer.color.IItemColor;
+import net.minecraft.client.renderer.color.ItemColors;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -36,7 +45,7 @@ import trhod177.bm.proxy.CommonProxy;
 import trhod177.bm.worldgen.WorldGenCustomOres;
 import trhod177.bm.worldgen.WorldGenCustomStructures;
 
-@Mod(modid   = References.MODID, name    = References.NAME, version = References.VERSION)
+@Mod(modid   = References.MODID, name = References.NAME, version = References.VERSION, updateJSON = "https://raw.githubusercontent.com/CodersDownUnder/UpdateJsons/master/slaughtercraftversion.json")
 public class SlaughterCraft {
     public static final CreativeTabs BMCT  = new ButcheryModCreativeTab("BlockInit.cowcarcass");
     public static final CreativeTabs BMCT2 = new ButcheryModCreativeTab2("ItemInit.cowbelly");
@@ -95,7 +104,7 @@ public class SlaughterCraft {
         proxy.preInit(event);
         MinecraftForge.EVENT_BUS.register(ConfigHandler.class);
         ConfigHandler.registerConfig(event);
-        
+        //OBJLoader.INSTANCE.addDomain(References.MODID);
         
         GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
         GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
@@ -121,7 +130,11 @@ public class SlaughterCraft {
         RecipeHandler.registerShapedRecipes();
         RecipeHandler.registerShapelessRecipes();
         RecipeHandler.registerFurnaceRecipes();
+       
         
+        
+        
+      
         
         
     }

@@ -35,10 +35,12 @@ minecraft {
 
 repositories {
   maven { url 'http://tehnut.info/maven/' }
+  maven { url 'https://jitpack.io/' }
 }
 
 dependencies {
   deobfCompile "info.amerifrance.guideapi:Guide-API:1.12-2.1.7-62"
+  compile "com.github.CJMinecraft01:CJCore:1.12-SNAPSHOT"
 }
 processResources {
     // this will ensure that this task is redone when the versions change.

@@ -13,6 +13,10 @@ public class SCOreDictionaryHandler {
 		OreDictionary.registerOre("oreSteel", BlockInit.coalironmix);
 		OreDictionary.registerOre("ingotSteel", ItemInit.steelingot);
 		
+		//leathers
+		OreDictionary.registerOre("untannedLeather", ItemInit.untannedcowleather);
+		OreDictionary.registerOre("untannedLeather", ItemInit.untannedpigskin);
+		OreDictionary.registerOre("untannedLeather", ItemInit.untannedsheepskin);
 		
 		//cow parts
 		OreDictionary.registerOre("listAllmeatraw", ItemInit.cowbelly);
@@ -110,6 +114,8 @@ public class SCOreDictionaryHandler {
 		OreDictionary.registerOre("listAllhorsecooked", ItemInit.cookedhorsemeat);
 		OreDictionary.registerOre("listAllmulecooked", ItemInit.cookedmulemeat);
 		OreDictionary.registerOre("listAlldonkeycooked", ItemInit.cookeddonkeymeat);
+		
+		
 		
 	}  
 
